@@ -129,8 +129,6 @@ void bank_close(struct bank_s *b)
 static bool region_wanted(const struct prescan_s *ps, int slot,
                           const struct bank_region_s *r)
 {
-  int k;
-
   if (!ps->used[slot])
     {
       return false;

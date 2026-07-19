@@ -1463,7 +1463,7 @@ static void scan_playlist(void)
 
   g_nsongs = 0;
   d = opendir(g_mididir);
-  if (d == NULL && g_mididir == MIDI_DIR_SD)
+  if (d == NULL && strcmp(g_mididir, MIDI_DIR_SD) == 0)
     {
       g_mididir = MIDI_DIR_SPIF;
       d = opendir(g_mididir);
