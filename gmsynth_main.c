@@ -87,7 +87,7 @@
 
 #define TAIL_FRAMES     (GM2_RATE * 2)
 
-#define MAX_SONGS       (32)
+#define MAX_SONGS       (5500)  /* Names live in GNSS RAM (352KB) */
 
 #define DEFAULT_REVERB  (40)
 
@@ -179,7 +179,11 @@ static bool g_first_block;        /* Emit initial channel state */
 
 /* Playlist / modes */
 
-static char g_songs[MAX_SONGS][64];
+/* Song list: NAMES only (paths get assembled against g_mididir when
+ * opening), stored in GNSS RAM to allow thousands of entries.
+ */
+
+static char g_songs[MAX_SONGS][64] GNSSRAM;
 static int g_nsongs;
 static int g_cur_song;
 static bool g_loop_mode = true;
@@ -1470,12 +1474,19 @@ static void scan_playlist(void)
       return;
     }
 
-  while ((e = readdir(d)) != NULL && g_nsongs < MAX_SONGS)
+  while ((e = readdir(d)) != NULL)
     {
       if (has_mid_ext(e->d_name))
         {
-          snprintf(g_songs[g_nsongs], sizeof(g_songs[0]), "%s/%.56s",
-                   g_mididir, e->d_name);
+          if (g_nsongs >= MAX_SONGS)
+            {
+              printf("gmsynth: MAX_SONGS (%d) reached, rest ignored\n",
+                     MAX_SONGS);
+              break;
+            }
+
+          snprintf(g_songs[g_nsongs], sizeof(g_songs[0]), "%.63s",
+                   e->d_name);
           g_nsongs++;
         }
     }
@@ -1588,9 +1599,12 @@ static int song_load(int idx)
   int fd;
   ssize_t n;
 
-  printf("gmsynth: loading %s\n", g_songs[idx]);
+  char path[96];
+
+  snprintf(path, sizeof(path), "%s/%s", g_mididir, g_songs[idx]);
+  printf("gmsynth: loading %s\n", path);
   workers_reset();
-  fd = open(g_songs[idx], O_RDONLY);
+  fd = open(path, O_RDONLY);
   if (fd < 0)
     {
       printf("gmsynth: cannot open song\n");

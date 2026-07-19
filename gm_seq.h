@@ -16,7 +16,7 @@
 
 #include "gm_bank.h"
 
-#define SEQ_MAX_TRACKS  (24)
+#define SEQ_MAX_TRACKS  (48)
 #define SEQ_MAX_SECONDS (3600)
 
 #define SEQ_EV_ON       (1)
