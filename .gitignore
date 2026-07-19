@@ -28,6 +28,7 @@ gmbank_report.txt
 corpus_stats.json
 trims*.json
 timbre_sweep.json
+zone_gains.json
 
 # Offline verification work areas (contain third-party MIDI/renders)
 render_out/
