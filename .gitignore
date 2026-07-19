@@ -1,0 +1,38 @@
+# NuttX build artifacts
+/Make.dep
+/.depend
+/.built
+*.o
+*.asm
+*.obj
+*.rel
+*.lst
+*.sym
+*.adb
+*.lib
+*.src
+*.spk
+*.debug
+worker/gmvoice/gmvoice
+worker/spikework/spikework
+worker/lib/libasmpw.a
+
+# Python
+__pycache__/
+
+# Generated sound bank and tuning data (see README: Licensing).
+# gmbank.bin inherits the license of the SoundFont it was built from
+# (e.g. SGM-V2.01 -> GPLv3) and is never committed here.
+gmbank.bin
+gmbank_report.txt
+corpus_stats.json
+trims*.json
+timbre_sweep.json
+
+# Offline verification work areas (contain third-party MIDI/renders)
+render_out/
+refcmp_tmp/
+*.sf2
+*.mid
+*.MID
+*.wav

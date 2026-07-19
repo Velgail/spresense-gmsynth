@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: BSL-1.0
+
+config SYNTHAPPS_GMSYNTH
+	tristate "gmsynth app"
+	default y
+	---help---
+		Enable the gmsynth app
+
+if SYNTHAPPS_GMSYNTH
+
+config SYNTHAPPS_GMSYNTH_PROGNAME
+	string "Program name"
+	default "gmsynth"
+	---help---
+		This is the name of the program that will be used when the NSH ELF
+		program is installed.
+
+config SYNTHAPPS_GMSYNTH_PRIORITY
+	int "gmsynth task priority"
+	default 100
+
+config SYNTHAPPS_GMSYNTH_STACKSIZE
+	int "gmsynth stack size"
+	default 8192
+
+endif

@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: BSL-1.0
+
+ifneq ($(CONFIG_SYNTHAPPS_GMSYNTH),)
+CONFIGURED_APPS += gmsynth
+endif

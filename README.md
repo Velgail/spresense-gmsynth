@@ -1,0 +1,90 @@
+# gmsynth — 64-voice GM synthesizer for Sony Spresense
+
+A General MIDI software synthesizer for the Sony Spresense board
+(CXD5602), rendering 64 voices at 48 kHz across the multicore ASMP
+architecture:
+
+- **Main core**: SMF (Standard MIDI File) streaming sequencer, global
+  64-voice ledger with voice stealing, per-song sample loading from a
+  compact ADPCM sound bank.
+- **4 ASMP subcores** (`worker/gmvoice`): identical renderer workers,
+  16 voices each, commanded per audio block by the supervisor.
+
+The engine reads its instrument data at runtime from a single binary
+sound bank file, `/mnt/spif/gmbank.bin`, which **you build yourself
+from any GM-compatible SoundFont (.sf2)** — see below.
+
+## Repository layout
+
+| Path | Description |
+|---|---|
+| `gmsynth_main.c` | Supervisor: sequencer, voice ledger, audio output |
+| `gm_seq.c/h` | SMF streaming parser + prescan pass |
+| `gm_bank.c/h` | `gmbank.bin` reader / per-song sample loader |
+| `gm2_shared.h` | Supervisor ↔ worker protocol |
+| `worker/gmvoice/` | ASMP renderer worker (16 voices per subcore) |
+| `worker/spikework/`, `spike_shared.h` | Architecture-validation spike worker |
+| `gmbank_build.py`, `sf2parse.py`, `gmbank_format.py` | SoundFont → `gmbank.bin` builder |
+| `gmrender.py`, `smf.py` | Offline reference renderer (bit-accurate model of the device engine) |
+| `bank_qa.py` | Offline bank QA: pitch accuracy, audibility, gain uniformity |
+| `corpus_scan.py`, `midi_scan.py` | MIDI corpus statistics (drives bank size/quality allocation) |
+| `ref_compare.py`, `timbre_sweep.py`, `merge_trims.py` | Tuning against a fluidsynth reference rendering |
+| `Makefile`, `Make.defs`, `Kconfig` | Spresense SDK application glue |
+| `romfs/`, `mkromfs.sh`, `nsh_romfsimg.h` | Boot script ROMFS (`gmsynth &`) |
+
+## Building the sound bank
+
+The sound bank is **not** included in this repository (see Licensing).
+Build it from a GM SoundFont of your choice:
+
+```sh
+# Optional: scan your own MIDI collection to allocate the size budget
+python3 corpus_scan.py /path/to/midis --json corpus_stats.json
+
+python3 gmbank_build.py /path/to/your_font.sf2 \
+    [--stats corpus_stats.json] [--out gmbank.bin]
+
+python3 bank_qa.py gmbank.bin          # offline sanity check
+python3 gmrender.py gmbank.bin song.mid out.wav   # offline listen test
+```
+
+Then copy `gmbank.bin` to the board's SPI flash (`/mnt/spif/gmbank.bin`)
+along with the `gmvoice` worker ELF (`/mnt/spif/gmvoice`).
+
+Any GM-compatible SF2 works: FluidR3 GM (MIT), GeneralUser GS (its own
+permissive license), SGM-V2.01 (GPLv3), TimGM6mb (GPLv2), etc. The
+builder handles multisample zones, key/velocity ranges, loop points,
+tuning generators, and encodes everything to ADPCM within a size budget.
+
+## Building the firmware
+
+This directory is a Spresense SDK application. Place (or symlink) it
+into your `spresense` tree, e.g. as `synthapps/gmsynth`, make sure the
+containing directory is registered as an application directory, enable
+`CONFIG_SYNTHAPPS_GMSYNTH`, then build the SDK as usual. At boot the
+ROMFS init script starts `gmsynth`, which plays SMF files from
+`/mnt/sd0` or `/mnt/spif`.
+
+## Licensing
+
+- **All code in this repository** (C sources, workers, Python tools,
+  build files) is licensed under the **Boost Software License 1.0**
+  (see `LICENSE_1_0.txt`). Files carry `SPDX-License-Identifier: BSL-1.0`.
+- Exception: `worker/lib/Makefile` is taken from the Spresense SDK
+  ASMP example and keeps its original Sony Semiconductor Solutions
+  BSD-style license header.
+- **Sound bank data is deliberately not part of this repository.**
+  `gmbank.bin` is generated data derived from whatever SoundFont you
+  feed to `gmbank_build.py`, and it inherits that SoundFont's license.
+  For example, a bank built from SGM-V2.01 is a GPLv3 derivative work
+  and must be distributed (if at all) under GPLv3 — independently of
+  this program. The engine itself is SoundFont-agnostic: it consumes
+  the documented `gmbank.bin` format (`gmbank_format.py`) as external
+  runtime data loaded from the filesystem, and any GM SoundFont can be
+  substituted, so the program is not a derivative work of any
+  particular sound bank.
+- Tuning/statistics artifacts derived from third-party MIDI files or
+  from reference SoundFont renderings (`corpus_stats.json`,
+  `trims*.json`, `timbre_sweep.json`, `gmbank_report.txt`, WAV renders)
+  are likewise excluded and git-ignored; regenerate them locally with
+  the tools above.
