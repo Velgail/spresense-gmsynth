@@ -32,6 +32,8 @@ timbre_sweep.json
 # Offline verification work areas (contain third-party MIDI/renders)
 render_out/
 refcmp_tmp/
+calib_tmp/
+calib_report.txt
 *.sf2
 *.mid
 *.MID
