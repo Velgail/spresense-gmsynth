@@ -12,6 +12,7 @@ still sounds, just pitch-shifted further).
 Usage:
   gmbank_build.py <main.sf2> [--fallback other.sf2] [--stats corpus_stats.json]
                   [--out gmbank.bin] [--report gmbank_report.txt]
+                  [--budget 3.5M]   (closed-loop: scale quality until it fits)
 """
 
 import json
@@ -411,6 +412,15 @@ def zone_to_region(sf, klo, khi, z, pgens, rate, max_s, rel_clamp,
 # Main build
 # ---------------------------------------------------------------------------
 
+def parse_size(s):
+    s = s.strip().upper()
+    if s.endswith('M'):
+        return int(float(s[:-1]) * 1048576)
+    if s.endswith('K'):
+        return int(float(s[:-1]) * 1024)
+    return int(s)
+
+
 def main():
     argv = sys.argv[1:]
     font_path = None
@@ -418,10 +428,14 @@ def main():
     stats_path = 'corpus_stats.json'
     out_path = 'gmbank.bin'
     rep_path = 'gmbank_report.txt'
+    budget = None
     i = 0
     while i < len(argv):
         if argv[i] == '--fallback':
             fb_path = argv[i + 1]
+            i += 2
+        elif argv[i] == '--budget':
+            budget = parse_size(argv[i + 1])
             i += 2
         elif argv[i] == '--stats':
             stats_path = argv[i + 1]
@@ -450,10 +464,6 @@ def main():
     sf = SF2(font_path)
     fb = None
 
-    prog_regions = {}
-    report = []
-    snrs = []
-
     def get_pool(bank, prog):
         nonlocal fb
         pool = sf.zone_pool(bank, prog)
@@ -465,6 +475,53 @@ def main():
             src = 'fallback'
         return pool, (sf if src == 'main' else fb), src
 
+    total = run_build(1.0, get_pool, stats, nfiles, prog_files, key_lo,
+                      key_hi, drum_files, out_path, rep_path)
+    if budget is not None and total > budget:
+        solve_budget(total, budget, get_pool, stats, nfiles, prog_files,
+                     key_lo, key_hi, drum_files, out_path, rep_path)
+
+
+def solve_budget(size1, budget, *build_args):
+    """Closed loop: scale the global quality knob down until the bank
+    fits.  Size scales roughly as qscale^2.5 (rate x loop length x zone
+    density), so start from the analytic guess and correct."""
+    hi = 1.0                               # known too big
+    lam = (budget / size1) ** (1 / 2.5)
+    best = None
+    last = (1.0, size1)
+    for _ in range(6):
+        lam = min(max(lam, 0.25), hi - 0.005)
+        size = run_build(lam, *build_args)
+        last = (lam, size)
+        print('budget: qscale %.3f -> %.2f MB (target %.2f MB)' %
+              (lam, size / 1048576.0, budget / 1048576.0))
+        if size <= budget:
+            if best is None or lam > best[0]:
+                best = (lam, size)
+            if size >= 0.90 * budget:
+                break
+            lam = min(lam * (budget / size) ** (1 / 2.5),
+                      (lam + hi) / 2)
+        else:
+            hi = lam
+            lam = lam * (budget / size) ** (1 / 2.5)
+    if best is None:
+        sys.exit('gmbank_build: cannot reach budget %d' % budget)
+    if last != best:
+        run_build(best[0], *build_args)
+    print('budget: final qscale %.3f, %.2f MB' %
+          (best[0], best[1] / 1048576.0))
+
+
+def run_build(qscale, get_pool, stats, nfiles, prog_files, key_lo,
+              key_hi, drum_files, out_path, rep_path):
+    prog_regions = {}
+    report = []
+    snrs = []
+    if qscale != 1.0:
+        report.append('quality scale %.3f (size budget)' % qscale)
+
     # Melodic programs
 
     for prog in range(128):
@@ -474,10 +531,12 @@ def main():
             tier = TIER_UP[tier]
 
         step, max_s, rscale = TIERS[tier]
+        step = max(2, int(round(step / qscale)))
         fam = (prog // 8) * 8
-        rate = int(min(max(FAMILY_RATE[fam] * rscale, RATE_MIN), RATE_MAX))
+        rate = int(min(max(FAMILY_RATE[fam] * rscale * qscale, RATE_MIN),
+                       RATE_MAX))
         rel_clamp = PROG_RELEASE.get(prog, FAMILY_RELEASE[fam])
-        max_s = PROG_MAXS.get(prog, max_s)
+        max_s = PROG_MAXS.get(prog, max_s) * qscale
         trim = TRIM.get(prog, 1.0)
         att_cap = ATTACK_CAP_SLOW if fam in SLOW_ATTACK_FAMS \
             else ATTACK_CAP_FAST
@@ -527,6 +586,8 @@ def main():
     for key in dkeys:
         freq = drum_files.get(key, 0) / nfiles
         rate, max_s = drum_plan(key, freq)
+        rate = int(max(rate * qscale, 8000))
+        max_s *= qscale
         hit = None
         for zlo, zhi, z, pg in dpool:
             if zlo <= key <= zhi:
@@ -566,6 +627,7 @@ def main():
     with open(rep_path, 'w') as f:
         f.write('\n'.join(report) + '\n')
     print('\n'.join(report[-14:]))
+    return total
 
 
 if __name__ == '__main__':

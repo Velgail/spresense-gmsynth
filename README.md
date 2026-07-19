@@ -46,8 +46,17 @@ python3 gmbank_build.py /path/to/your_font.sf2 \
     [--stats corpus_stats.json] [--out gmbank.bin]
 
 python3 bank_qa.py gmbank.bin          # offline sanity check
-python3 gmrender.py gmbank.bin song.mid out.wav   # offline listen test
+python3 gmrender.py gmbank.bin song.mid --out out.wav   # offline listen test
 ```
+
+Size is capped automatically: `--budget 3.5M` (on `gmbank_build.py` or
+`bank_calibrate.py`) runs a closed loop that scales the global quality
+knob (sample rates, loop lengths, zone density) until the bank fits,
+so even multi-GB fonts land on the SPI flash. At runtime the device
+fits each song into the 512KB shared sample pool by thinning
+many-zone programs and, as a last resort, dropping the least-played
+one; `gmrender.py --pool` models that exact logic offline so what you
+verify is what the board plays.
 
 Or let `bank_calibrate.py` do the whole loop — build the bank, then
 render a self-generated calibration MIDI (one note per multisample

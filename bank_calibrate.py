@@ -32,7 +32,7 @@ is the equivalence proof.  The last iteration's WAV pair stays in
 calib_tmp/ for listening (calib_ref.wav vs calib_our.wav).
 
 Usage:
-  bank_calibrate.py <font.sf2> [--bank existing.bin]
+  bank_calibrate.py <font.sf2> [--bank existing.bin] [--budget 3.5M]
                     [--fallback fb.sf2] [--stats corpus_stats.json]
                     [--trims-in seed_trims.json] [--out gmbank.bin]
                     [--gains-out zone_gains.json] [--report calib_report.txt]
@@ -214,10 +214,13 @@ def residuals(rows):
 # Bank building / in-place gain patching
 # ---------------------------------------------------------------------------
 
-def build_bank(font, fallback, stats_path, trims_in, out_path):
+def build_bank(font, fallback, stats_path, trims_in, out_path,
+               budget=None):
     cmd = [sys.executable, 'gmbank_build.py', font,
            '--stats', stats_path, '--out', out_path,
            '--report', f'{TMP}/build_report.txt']
+    if budget:
+        cmd += ['--budget', budget]
     if trims_in:
         cmd += ['--trims', trims_in]
     if fallback:
@@ -250,6 +253,7 @@ def main():
     argv = sys.argv[1:]
     font = None
     bank_in = None
+    budget = None
     fallback = None
     stats_path = 'corpus_stats.json'
     trims_in = None
@@ -263,6 +267,8 @@ def main():
         a = argv[i]
         if a == '--bank':
             bank_in = argv[i + 1]; i += 2
+        elif a == '--budget':
+            budget = argv[i + 1]; i += 2
         elif a == '--fallback':
             fallback = argv[i + 1]; i += 2
         elif a == '--stats':
@@ -296,7 +302,7 @@ def main():
     else:
         print('calibrate: building initial bank...')
         build_bank(font, fallback, load_stats(stats_path), trims_in,
-                   out_path)
+                   out_path, budget)
 
     bank = fmt.Bank(out_path)
     events, slots = build_slots(bank)

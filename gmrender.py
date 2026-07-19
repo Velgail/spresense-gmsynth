@@ -415,8 +415,149 @@ class Engine:
             self.stats['peak_voices'] = total
 
 
+# ---------------------------------------------------------------------------
+# Device pool budget model: faithful port of gm_bank.c bank_load_song(),
+# so offline renders match what the board does when a song's region set
+# exceeds the shared sample pool (thin many-zone slots first, drop the
+# least-played slot as a last resort, cap at MAX_LREGIONS per loadset).
+# ---------------------------------------------------------------------------
+
+MAX_LREGIONS = 96
+DEVICE_POOL_BYTES = 512 * 1024 - 64      # GM2_SAMPLE_BYTES
+
+
+def prescan_song(events, xg_drums):
+    """Offline model of the device prescan pass (gmseq_prescan):
+    used/keylo/keyhi/notes per slot + drum key set, with the same drum
+    channel and GS-kit-48 timpani slotting as the engine."""
+    used = [False] * 129
+    keylo = [128] * 129
+    keyhi = [-1] * 129
+    notes = [0] * 129
+    drumkey = set()
+    prog = [0] * 16
+    bank_msb = [0] * 16
+    for (t, kind, ch, a, b) in events:
+        if kind == 'prog':
+            prog[ch] = a
+        elif kind == 'cc' and a == 0:
+            bank_msb[ch] = b
+        elif kind == 'on':
+            is_drum = (ch == 9) or (xg_drums and
+                                    bank_msb[ch] in (120, 126, 127))
+            if is_drum and not (prog[ch] == 48 and 41 <= a <= 53):
+                slot = 128
+                drumkey.add(a)
+            else:
+                slot = 47 if is_drum else prog[ch]
+                keylo[slot] = min(keylo[slot], a)
+                keyhi[slot] = max(keyhi[slot], a)
+            used[slot] = True
+            notes[slot] += 1
+    return dict(used=used, keylo=keylo, keyhi=keyhi, notes=notes,
+                drumkey=drumkey)
+
+
+def _region_wanted(ps, slot, r):
+    if not ps['used'][slot]:
+        return False
+    if slot == 128:
+        return r['lokey'] in ps['drumkey']
+    return r['lokey'] <= ps['keyhi'][slot] and r['hikey'] >= ps['keylo'][slot]
+
+
+class BudgetBank:
+    """find_region/adpcm view of a Bank after per-song budget fitting."""
+
+    def __init__(self, bank, events, xg_drums, budget=DEVICE_POOL_BYTES):
+        self.base = bank
+        ps = prescan_song(events, xg_drums)
+        nreg = len(bank.regions)
+        skip = [False] * nreg
+        drop = [False] * 129
+        thinned = [False] * 129
+
+        def wanted_of(slot):
+            return [i for i in range(bank.index[slot],
+                                     bank.index[slot + 1])
+                    if not skip[i] and
+                    _region_wanted(ps, slot, bank.regions[i])]
+
+        while True:
+            total = sum(bank.regions[i]['adpcm_nbytes']
+                        for slot in range(129) if not drop[slot]
+                        for i in wanted_of(slot))
+            if total <= budget:
+                break
+
+            cand = -1
+            cbytes = 0
+            for slot in range(128):
+                if drop[slot] or thinned[slot] or not ps['used'][slot]:
+                    continue
+                w = wanted_of(slot)
+                bts = sum(bank.regions[i]['adpcm_nbytes'] for i in w)
+                if len(w) >= 4 and bts > cbytes:
+                    cbytes = bts
+                    cand = slot
+            if cand >= 0:
+                nth = 0
+                for i in range(bank.index[cand], bank.index[cand + 1]):
+                    if _region_wanted(ps, cand, bank.regions[i]):
+                        if (nth & 1) and i + 1 < bank.index[cand + 1]:
+                            skip[i] = True
+                        nth += 1
+                thinned[cand] = True
+                continue
+
+            victim = -1
+            vmin = float('inf')
+            for slot in range(128):
+                if ps['used'][slot] and not drop[slot] and \
+                        ps['notes'][slot] < vmin:
+                    vmin = ps['notes'][slot]
+                    victim = slot
+            if victim < 0:
+                raise RuntimeError('pool budget: cannot fit even drums')
+            drop[victim] = True
+
+        self.slots = {}
+        self.used_bytes = 0
+        nregs = 0
+        self.dropped = [s for s in range(129) if drop[s]]
+        self.thinned = [s for s in range(129) if thinned[s]]
+        for slot in range(129):
+            regs = []
+            prev = None
+            if not drop[slot]:
+                for i in range(bank.index[slot], bank.index[slot + 1]):
+                    r = bank.regions[i]
+                    if not _region_wanted(ps, slot, r):
+                        continue
+                    if skip[i]:
+                        if prev is not None:
+                            prev['hikey'] = r['hikey']
+                        continue
+                    if nregs >= MAX_LREGIONS:
+                        break
+                    prev = dict(r)
+                    regs.append(prev)
+                    self.used_bytes += r['adpcm_nbytes']
+                    nregs += 1
+            self.slots[slot] = regs
+
+    def find_region(self, slot, note):
+        for r in self.slots.get(slot, ()):
+            if r['lokey'] <= note <= r['hikey']:
+                return r
+        return None
+
+    def adpcm(self, r):
+        return self.base.adpcm(r)
+
+
 def render_song(bank_path, mid_path, out_path, max_s=None, dry=False,
-                xg_drums=True):
+                xg_drums=True, pool_budget=None):
     bank = Bank(bank_path)
     song = smf.parse(mid_path)
     dur = song['duration'] + 2.0
@@ -425,6 +566,15 @@ def render_song(bank_path, mid_path, out_path, max_s=None, dry=False,
     nsamp = int(dur * OUT_RATE)
     nblocks = (nsamp + BLOCK - 1) // BLOCK
     nsamp = nblocks * BLOCK
+
+    pool_stats = {}
+    if pool_budget:
+        budget = DEVICE_POOL_BYTES if pool_budget is True else pool_budget
+        bank = BudgetBank(bank, song['events'],
+                          xg_drums and song['xg'], budget)
+        pool_stats = dict(pool_kb=bank.used_bytes / 1024.0,
+                          pool_dropped=bank.dropped,
+                          pool_thinned=bank.thinned)
 
     eng = Engine(bank, xg_drums=xg_drums and song['xg'])
     events = [(min(int(t * OUT_RATE), nsamp - 1), k, c, a, b)
@@ -517,6 +667,7 @@ def render_song(bank_path, mid_path, out_path, max_s=None, dry=False,
         peak_dbfs=20 * math.log10(peak),
         rms_dbfs=20 * math.log10(max(rms, 1e-9)),
         clip_samples=clip,
+        **pool_stats,
     )
     return result
 
@@ -527,6 +678,7 @@ def main():
     json_path = None
     max_s = None
     dry = False
+    pool_budget = None
     pos = []
     i = 0
     while i < len(argv):
@@ -542,12 +694,20 @@ def main():
         elif argv[i] == '--dry':
             dry = True
             i += 1
+        elif argv[i] == '--pool':
+            # model the device's per-song sample pool budget
+            pool_budget = True
+            i += 1
+        elif argv[i] == '--pool-kb':
+            pool_budget = int(argv[i + 1]) * 1024
+            i += 2
         else:
             pos.append(argv[i])
             i += 1
 
     bank_path, mid_path = pos
-    r = render_song(bank_path, mid_path, out_path, max_s, dry=dry)
+    r = render_song(bank_path, mid_path, out_path, max_s, dry=dry,
+                    pool_budget=pool_budget)
     for k, v in r.items():
         print(f'{k}: {v}')
     if json_path:
