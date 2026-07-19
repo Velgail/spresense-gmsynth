@@ -705,6 +705,9 @@ def main():
             pos.append(argv[i])
             i += 1
 
+    if len(pos) != 2:
+        sys.exit(__doc__)
+
     bank_path, mid_path = pos
     r = render_song(bank_path, mid_path, out_path, max_s, dry=dry,
                     pool_budget=pool_budget)

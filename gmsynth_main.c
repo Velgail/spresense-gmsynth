@@ -250,16 +250,20 @@ static FAR struct gm2_ev_s *blk_ev_append(int w, uint16_t offset,
   FAR struct gm2_ev_s *ev;
   uint32_t i;
 
-  /* Coalesce channel-state events: keep only the latest per channel */
+  /* Coalesce channel-state events, but only at the SAME offset: the
+   * worker consumes events in array order, gating on each offset, so
+   * moving an earlier element's offset forward would also delay every
+   * event appended after it (NOTE_ONs included).
+   */
 
   if (type == GM2_EV_CHGAIN || type == GM2_EV_CHBEND)
     {
       for (i = 0; i < blk->nevents; i++)
         {
           if (blk->events[i].type == type &&
-              blk->events[i].vslot == vslot)
+              blk->events[i].vslot == vslot &&
+              blk->events[i].offset == offset)
             {
-              blk->events[i].offset = offset;
               return &blk->events[i];
             }
         }
@@ -543,12 +547,27 @@ static void note_on(uint16_t offset, int ch, int note, int vel)
     }
 
   v = lv_alloc(ch, note, now);
-  if (v->used)
-    {
-      /* Stolen: the START below replaces the voice on its worker */
 
-      g_wcount[v->worker] = g_wcount[v->worker];  /* Count unchanged */
+  /* Reserve the START event BEFORE touching the ledger entry: if the
+   * block is full nothing reaches the worker, so a steal candidate
+   * must keep its ledger state (it is still sounding).  Only a fresh
+   * allocation (v->used == false) needs its g_wcount bump undone.
+   */
+
+  ev = blk_ev_append(v->worker, offset, GM2_EV_START, v->vslot);
+  if (ev == NULL)
+    {
+      if (!v->used)
+        {
+          g_wcount[v->worker]--;
+        }
+
+      return;
     }
+
+  /* Stolen (v->used): the START replaces the voice on its worker;
+   * per-worker count is unchanged.
+   */
 
   v->used = true;
   v->drum = drum;
@@ -558,16 +577,6 @@ static void note_on(uint16_t offset, int ch, int note, int vel)
   v->phase = 0;
   v->born = now;
   v->reg = lr;
-
-  ev = blk_ev_append(v->worker, offset, GM2_EV_START, v->vslot);
-  if (ev == NULL)
-    {
-      /* Event overflow: voice never starts; free the ledger slot */
-
-      v->used = false;
-      g_wcount[v->worker]--;
-      return;
-    }
 
   semis = (float)(note - lr->br.root) * ((float)lr->br.scale / 100.0f);
 
@@ -1556,11 +1565,16 @@ static void scan_playlist(void)
  * ack (HELLO 0xC0000000) fences all in-flight RENDERs -- without this
  * the previous song's voices read the NEW song's samples as garbage
  * (audible burst of noise at every track change).
+ *
+ * Returns 0 only when every worker acked.  A negative return means
+ * the fence is NOT established and the sample pool must not be
+ * overwritten: a worker may still be rendering from it.
  */
 
-static void workers_reset(void)
+static int workers_reset(void)
 {
   int w;
+  int result = 0;
 
   for (w = 0; w < GM2_NWORKERS; w++)
     {
@@ -1571,6 +1585,7 @@ static void workers_reset(void)
     {
       uint32_t data;
       int guard;
+      bool acked = false;
 
       for (guard = 0; guard < 64; guard++)
         {
@@ -1578,20 +1593,27 @@ static void workers_reset(void)
 
           if (ret == GM2_MSG_HELLO && data == 0xc0000000)
             {
+              acked = true;
               break;
             }
 
           if (ret < 0)
             {
-              printf("gmsynth: w%d reset timeout\n", w);
               break;
             }
 
           /* Stale DONEs / diag echoes: drain and keep waiting */
         }
+
+      if (!acked)
+        {
+          printf("gmsynth: w%d reset timeout\n", w);
+          result = -1;
+        }
     }
 
   memset(g_blk_ready, 0, sizeof(g_blk_ready));
+  return result;
 }
 
 static int song_load(int idx)
@@ -1603,7 +1625,16 @@ static int song_load(int idx)
 
   snprintf(path, sizeof(path), "%s/%s", g_mididir, g_songs[idx]);
   printf("gmsynth: loading %s\n", path);
-  workers_reset();
+  if (workers_reset() < 0)
+    {
+      /* No fence: a worker may still render from the current pool.
+       * Overwriting it now would feed live voices garbage samples.
+       */
+
+      printf("gmsynth: reset fence failed, song load aborted\n");
+      return -1;
+    }
+
   fd = open(path, O_RDONLY);
   if (fd < 0)
     {

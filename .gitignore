@@ -29,6 +29,13 @@ corpus_stats.json
 trims*.json
 timbre_sweep.json
 zone_gains.json
+calib_residuals.json
+
+# Regression suite: generated inputs and outputs (fixture.sf2 and
+# tests/midi/*.mid are covered by *.sf2 / *.mid below; expectations in
+# tests/expected/ ARE committed)
+tests/out/
+tests/host/gmtrace
 
 # Offline verification work areas (contain third-party MIDI/renders)
 render_out/

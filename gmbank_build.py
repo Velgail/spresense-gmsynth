@@ -17,6 +17,7 @@ Usage:
 
 import json
 import math
+import os
 import sys
 
 import numpy as np
@@ -451,10 +452,28 @@ def main():
                          json.load(open(argv[i + 1])).items()})
             i += 2
         else:
+            if argv[i] in ('-h', '--help'):
+                sys.exit(__doc__)
             font_path = argv[i]
             i += 1
 
-    stats = json.load(open(stats_path))
+    if font_path is None:
+        sys.exit(__doc__)
+
+    if os.path.exists(stats_path):
+        stats = json.load(open(stats_path))
+    else:
+        # No corpus scan: neutral flat profile (every program tier B,
+        # generous key ranges, full GM drum set) -- same default the
+        # calibrator uses, so --stats really is optional.
+        print(f'gmbank_build: no {stats_path}, using neutral profile')
+        stats = {
+            'files': ['neutral'] * 100,
+            'prog_files': {str(p): 6 for p in range(128)},
+            'prog_key_lo': {str(p): 36 for p in range(128)},
+            'prog_key_hi': {str(p): 84 for p in range(128)},
+            'drum_files': {str(k): 10 for k in sorted(GM_DRUM_KEYS)},
+        }
     nfiles = len(stats['files'])
     prog_files = {int(k): v for k, v in stats['prog_files'].items()}
     key_lo = {int(k): v for k, v in stats['prog_key_lo'].items()}

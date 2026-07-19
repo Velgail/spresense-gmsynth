@@ -315,6 +315,9 @@ def main():
     xg_files = 0
     results = []
 
+    if not paths:
+        sys.exit(__doc__)
+
     for path in paths:
         try:
             r = scan(path, tail)

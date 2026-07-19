@@ -107,6 +107,9 @@ def measure_cents(x, f_expect):
 
 
 def main():
+    if len(sys.argv) < 2 or sys.argv[1] in ('-h', '--help'):
+        sys.exit(__doc__)
+
     bank_path = sys.argv[1]
     verbose = '--verbose' in sys.argv
     bank = Bank(bank_path)

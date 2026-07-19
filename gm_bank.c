@@ -102,7 +102,6 @@ int bank_open(struct bank_s *b)
            b->nregions * sizeof(struct bank_region_s)) !=
       (ssize_t)(b->nregions * sizeof(struct bank_region_s)))
     {
-      free(b->table);
       close(b->fd);
       return -1;
     }

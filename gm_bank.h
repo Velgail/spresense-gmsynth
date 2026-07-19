@@ -12,7 +12,9 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#ifndef BANK_PATH               /* Host trace harness overrides via -D */
 #define BANK_PATH        "/mnt/spif/gmbank.bin"
+#endif
 #define BANK_NPROG_SLOTS (129)      /* 0-127 melodic + 128 drum kit */
 #define BANK_DRUM_SLOT   (128)
 
@@ -97,7 +99,7 @@ struct bank_s
   uint32_t table_off;
   uint32_t blob_off;
   uint16_t index[BANK_NPROG_SLOTS + 1];
-  struct bank_region_s *table;    /* malloc'd, nregions rows */
+  struct bank_region_s *table;    /* static GNSS RAM storage, nregions rows */
 };
 
 int bank_open(struct bank_s *b);

@@ -18,7 +18,7 @@ renderer already honor, so the calibration:
      where possible) plus every drum key -- so a thinned zone set is
      calibrated exactly as built, and NO external MIDI files are needed
   3. renders it through fluidsynth+font (ground truth) and gmrender
-     (bit-model of the device), effects off
+     (behavioral model of the device), effects off
   4. measures each slot's level over the reference's active frames,
      median-centers across melodic zones so the arbitrary master gains
      cancel, and PATCHES the corrective factor straight into each
@@ -31,12 +31,18 @@ per-zone factor recipe (JSON), and a before/after residual report that
 is the equivalence proof.  The last iteration's WAV pair stays in
 calib_tmp/ for listening (calib_ref.wav vs calib_our.wav).
 
+--check flips the tool from calibration to regression: the bank is
+measured ONCE, nothing is patched or built, residuals are written to
+--resid-out, and the exit code is 1 if any audible zone sits outside
+--tol.  Calibration converges a bank; --check judges one as-is.
+
 Usage:
   bank_calibrate.py <font.sf2> [--bank existing.bin] [--budget 3.5M]
                     [--fallback fb.sf2] [--stats corpus_stats.json]
                     [--trims-in seed_trims.json] [--out gmbank.bin]
                     [--gains-out zone_gains.json] [--report calib_report.txt]
                     [--iters 6] [--tol 1.0]
+                    [--check] [--resid-out calib_residuals.json]
 """
 
 import json
@@ -262,6 +268,8 @@ def main():
     rep_path = 'calib_report.txt'
     iters = 6
     tol = 1.0
+    check = False
+    resid_out = None
     i = 0
     while i < len(argv):
         a = argv[i]
@@ -285,6 +293,12 @@ def main():
             iters = int(argv[i + 1]); i += 2
         elif a == '--tol':
             tol = float(argv[i + 1]); i += 2
+        elif a == '--check':
+            check = True; i += 1
+        elif a == '--resid-out':
+            resid_out = argv[i + 1]; i += 2
+        elif a in ('-h', '--help'):
+            sys.exit(__doc__)
         else:
             font = a; i += 1
     if font is None:
@@ -295,16 +309,28 @@ def main():
     if os.path.exists(refw):               # stale ref from another run
         os.remove(refw)
 
-    if bank_in:
+    if check:
+        # Regression mode: judge the bank exactly as it is.  No build,
+        # no copy, no gain patching -- one measurement, pass/fail.
+        target = bank_in or out_path
+        if not os.path.exists(target):
+            sys.exit(f'--check: bank not found: {target}')
+        iters = 0
+        if resid_out is None:
+            resid_out = 'calib_residuals.json'
+        print(f'calibrate: CHECK mode, measuring {target} as-is')
+    elif bank_in:
+        target = out_path
         if os.path.abspath(bank_in) != os.path.abspath(out_path):
             shutil.copyfile(bank_in, out_path)
         print(f'calibrate: starting from {bank_in}')
     else:
+        target = out_path
         print('calibrate: building initial bank...')
         build_bank(font, fallback, load_stats(stats_path), trims_in,
                    out_path, budget)
 
-    bank = fmt.Bank(out_path)
+    bank = fmt.Bank(target)
     events, slots = build_slots(bank)
     nzones = sum(1 for s in slots if s[1] == 'zone')
     print(f'calibrate: {nzones} melodic zones + '
@@ -316,7 +342,7 @@ def main():
     rows = None
     for it in range(iters + 1):
         print(f'-- iteration {it}: rendering & measuring...')
-        rows, med = residuals(measure(out_path, font, events, slots))
+        rows, med = residuals(measure(target, font, events, slots))
         if first is None:
             first = {r['label']: r['resid'] for r in rows}
 
@@ -339,15 +365,23 @@ def main():
             if new != old:
                 corrections[r['regidx']] = new / old
                 cum[r['regidx']] = new
-        patch_gains(out_path, corrections)
+        patch_gains(target, corrections)
 
     # Outputs
 
-    recipe = {r['label']: round(cum.get(r['regidx'], 1.0), 4)
-              for r in rows}
-    json.dump(recipe, open(gains_out, 'w'), indent=1)
+    if not check:
+        recipe = {r['label']: round(cum.get(r['regidx'], 1.0), 4)
+                  for r in rows}
+        json.dump(recipe, open(gains_out, 'w'), indent=1)
 
-    lines = [f'bank_calibrate: {font} -> {out_path} (zone-level)',
+    if resid_out:
+        json.dump([{k: r[k] for k in ('label', 'kind', 'regidx', 'note',
+                                      'ref_db', 'our_db', 'resid')}
+                   for r in rows],
+                  open(resid_out, 'w'), indent=1)
+
+    mode = 'CHECK, no patching' if check else 'zone-level'
+    lines = [f'bank_calibrate: {font} -> {target} ({mode})',
              f'tolerance +-{tol} dB (residual = our-ref level, '
              f'melodic-zone-median centered)',
              '',
@@ -377,7 +411,10 @@ def main():
                  f'{nsilent} absent in font')
     open(rep_path, 'w').write('\n'.join(lines) + '\n')
 
-    print(f'\nzone gain factors -> {gains_out} ({len(cum)} patched)')
+    if not check:
+        print(f'\nzone gain factors -> {gains_out} ({len(cum)} patched)')
+    if resid_out:
+        print(f'residuals -> {resid_out}')
     print(f'report -> {rep_path}')
     print(lines[-1])
     print(f'listen: {TMP}/calib_ref.wav vs {TMP}/calib_our.wav')
