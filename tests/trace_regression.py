@@ -46,6 +46,7 @@ CASES = {
     '11_running_status': [],
     '12_multitrack': [],
     '13_rpn_bendrange': [],
+    '14_overflow_release': [],
 }
 
 
@@ -122,6 +123,19 @@ def run_case(name, args):
     return trace
 
 
+def check_reset_fence():
+    """Failure injection: host mpmq stubs never ack, so the harness's
+    song_load() must abort with the sample pool untouched.  A direct
+    invariant, not a golden compare."""
+    mid = os.path.join(TESTS, 'midi', '01_cc_order.mid')
+    r = subprocess.run([HARNESS, mid, '--reset-fence'],
+                       capture_output=True, text=True, cwd=OUTDIR)
+    ok = r.returncode == 0
+    print(f'{"PASS " if ok else "FAIL "} reset_fence: '
+          f'{r.stdout.strip()}')
+    return ok
+
+
 def diff_traces(name, exp, cur):
     """Human-oriented first-difference report."""
     msgs = []
@@ -162,6 +176,9 @@ def main():
     if not check_manifest(bank, update):
         failed.append('fixture_manifest')
 
+    if not check_reset_fence():
+        failed.append('reset_fence')
+
     for name, args in CASES.items():
         trace = run_case(name, args)
         outp = os.path.join(OUTDIR, f'{name}.events.json')
@@ -191,7 +208,7 @@ def main():
         print(f'\nblessed {len(CASES)} traces + manifest -> {EXPECTED}')
         return
 
-    total = len(CASES) + 1
+    total = len(CASES) + 2          # + manifest + reset fence
     print(f'\n{total - len(failed)}/{total} passed')
     if failed:
         sys.exit(1)

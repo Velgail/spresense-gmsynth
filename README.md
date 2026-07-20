@@ -115,9 +115,12 @@ The C sequencer/ledger logic is regression-tested **on the host**: the
 real `gmsynth_main.c` / `gm_seq.c` / `gm_bank.c` are compiled against
 stub NuttX/ASMP headers (`tests/host/stubs/`), driven over fixed MIDI
 cases (CC/bend vs note ordering, sustain, self/global steal, attack
-guard, drum choke, CC111 loop, event overflow, tempo change, running
+guard, drum choke, CC111 loop, event overflow — including note-offs
+and chokes landing in an already-full block — tempo change, running
 status, multi-track merge, RPN bend range), and the per-block worker
-event streams are compared against committed JSON expectations:
+event streams are compared against committed JSON expectations. A
+RESET-fence failure injection additionally asserts that a failed
+worker reset leaves the sample pool untouched:
 
 ```sh
 sh tests/smoke.sh                     # CLI/README contract smoke test

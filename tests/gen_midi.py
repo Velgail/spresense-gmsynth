@@ -180,6 +180,21 @@ def main():
         (30, off(0, 60)),
     ])])
 
+    # 14: RELEASE/KILL inside a full block: 64+ held voices, an open
+    # hat, then a CC flood that overflows the block WHILE note-offs and
+    # a hi-hat choke land in it.  The dropped releases must leave the
+    # ledger in the playing state (consistent with the worker); the
+    # off at tick 130 lands after the flood and must succeed.
+    write('14_overflow_release.mid', [track(
+        [(0, prog(0, 48))] +
+        [(i, on(0, 24 + i)) for i in range(70)] +
+        [(90, on(9, 46))] +
+        [(100 + t, cc(ch, 7, 20 + (t * 16 + ch) % 100))
+         for t in range(20) for ch in range(16)] +
+        [(110, off(0, 24)), (110, off(0, 25)), (111, off(0, 26)),
+         (111, on(9, 42)),
+         (130, off(0, 30))])])
+
 
 if __name__ == '__main__':
     main()

@@ -212,8 +212,8 @@ def main():
     print('pitch FAILs: %s' % [f for f in fails])
     print('pitch warns (atonal families): %s' %
           [('p%d' % p, round(c)) for p, c, _ in warns])
-    print('QA %s' % ('PASS' if not fails and not silent and not dsilent
-                     else 'NEEDS ATTENTION'))
+    qa_failed = bool(fails or silent or dsilent)
+    print('QA %s' % ('NEEDS ATTENTION' if qa_failed else 'PASS'))
 
     # Trim suggestions: pull outliers back to a +/-8dB band around the
     # median (no boost for the naturally-quiet SFX family)
@@ -232,6 +232,8 @@ def main():
                 trims[p] = round(10.0 ** ((-dev - 8) / 20.0), 3)
         json.dump(trims, open(path, 'w'), indent=1)
         print('trim suggestions -> %s (%d programs)' % (path, len(trims)))
+
+    sys.exit(1 if qa_failed else 0)
 
 
 if __name__ == '__main__':

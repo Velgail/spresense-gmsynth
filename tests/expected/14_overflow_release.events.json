@@ -1,0 +1,9346 @@
+{
+ "midi": "14_overflow_release.mid",
+ "loop": false,
+ "blocks": [
+  {
+   "n": 0,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 0,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 2,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 3,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 1,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 4,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 5,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 2,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 6,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 7,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 3,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 8,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 9,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 4,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 10,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 11,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 5,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 12,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 13,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 6,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 14,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 15,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 7,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 16,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 17,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 8,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 18,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 19,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 9,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 20,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 21,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 10,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 22,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 23,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 11,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 24,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 25,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 12,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 26,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 27,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 13,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 28,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 29,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 14,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 30,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 31,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 15,
+     "value": 1
+    },
+    {
+     "w": 0,
+     "i": 32,
+     "offset": 0,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 33,
+     "offset": 200,
+     "type": "START",
+     "vslot": 1,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 34,
+     "offset": 400,
+     "type": "START",
+     "vslot": 2,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 0,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 2,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 3,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 1,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 4,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 5,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 2,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 6,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 7,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 3,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 8,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 9,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 4,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 10,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 11,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 5,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 12,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 13,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 6,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 14,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 15,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 7,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 16,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 17,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 8,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 18,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 19,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 9,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 20,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 21,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 10,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 22,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 23,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 11,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 24,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 25,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 12,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 26,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 27,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 13,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 28,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 29,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 14,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 30,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 31,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 15,
+     "value": 1
+    },
+    {
+     "w": 1,
+     "i": 32,
+     "offset": 50,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 33,
+     "offset": 250,
+     "type": "START",
+     "vslot": 1,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 34,
+     "offset": 450,
+     "type": "START",
+     "vslot": 2,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 0,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 2,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 3,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 1,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 4,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 5,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 2,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 6,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 7,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 3,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 8,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 9,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 4,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 10,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 11,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 5,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 12,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 13,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 6,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 14,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 15,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 7,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 16,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 17,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 8,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 18,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 19,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 9,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 20,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 21,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 10,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 22,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 23,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 11,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 24,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 25,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 12,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 26,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 27,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 13,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 28,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 29,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 14,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 30,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 31,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 15,
+     "value": 1
+    },
+    {
+     "w": 2,
+     "i": 32,
+     "offset": 100,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 33,
+     "offset": 300,
+     "type": "START",
+     "vslot": 1,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 34,
+     "offset": 500,
+     "type": "START",
+     "vslot": 2,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 0,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 2,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 3,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 1,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 4,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 5,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 2,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 6,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 7,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 3,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 8,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 9,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 4,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 10,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 11,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 5,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 12,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 13,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 6,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 14,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 15,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 7,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 16,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 17,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 8,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 18,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 19,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 9,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 20,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 21,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 10,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 22,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 23,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 11,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 24,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 25,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 12,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 26,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 27,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 13,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 28,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 29,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 14,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 30,
+     "offset": 0,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 31,
+     "offset": 0,
+     "type": "CHBEND",
+     "vslot": 15,
+     "value": 1
+    },
+    {
+     "w": 3,
+     "i": 32,
+     "offset": 150,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 33,
+     "offset": 349,
+     "type": "START",
+     "vslot": 1,
+     "ch": 0
+    }
+   ]
+  },
+  {
+   "n": 1,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 88,
+     "type": "START",
+     "vslot": 3,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 288,
+     "type": "START",
+     "vslot": 4,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 2,
+     "offset": 488,
+     "type": "START",
+     "vslot": 5,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 137,
+     "type": "START",
+     "vslot": 3,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 338,
+     "type": "START",
+     "vslot": 4,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 187,
+     "type": "START",
+     "vslot": 3,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 388,
+     "type": "START",
+     "vslot": 4,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 38,
+     "type": "START",
+     "vslot": 2,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 237,
+     "type": "START",
+     "vslot": 3,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 2,
+     "offset": 438,
+     "type": "START",
+     "vslot": 4,
+     "ch": 0
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 176,
+     "type": "START",
+     "vslot": 6,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 375,
+     "type": "START",
+     "vslot": 7,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 26,
+     "type": "START",
+     "vslot": 5,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 226,
+     "type": "START",
+     "vslot": 6,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 2,
+     "offset": 425,
+     "type": "START",
+     "vslot": 7,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 76,
+     "type": "START",
+     "vslot": 5,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 275,
+     "type": "START",
+     "vslot": 6,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 2,
+     "offset": 475,
+     "type": "START",
+     "vslot": 7,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 126,
+     "type": "START",
+     "vslot": 5,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 325,
+     "type": "START",
+     "vslot": 6,
+     "ch": 0
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 64,
+     "type": "START",
+     "vslot": 8,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 264,
+     "type": "START",
+     "vslot": 9,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 2,
+     "offset": 464,
+     "type": "START",
+     "vslot": 10,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 114,
+     "type": "START",
+     "vslot": 8,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 314,
+     "type": "START",
+     "vslot": 9,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 164,
+     "type": "START",
+     "vslot": 8,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 364,
+     "type": "START",
+     "vslot": 9,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 13,
+     "type": "START",
+     "vslot": 7,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 214,
+     "type": "START",
+     "vslot": 8,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 2,
+     "offset": 414,
+     "type": "START",
+     "vslot": 9,
+     "ch": 0
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 152,
+     "type": "START",
+     "vslot": 11,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 352,
+     "type": "START",
+     "vslot": 12,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 2,
+     "type": "START",
+     "vslot": 10,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 202,
+     "type": "START",
+     "vslot": 11,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 2,
+     "offset": 402,
+     "type": "START",
+     "vslot": 12,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 52,
+     "type": "START",
+     "vslot": 10,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 252,
+     "type": "START",
+     "vslot": 11,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 2,
+     "offset": 452,
+     "type": "START",
+     "vslot": 12,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 102,
+     "type": "START",
+     "vslot": 10,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 302,
+     "type": "START",
+     "vslot": 11,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 2,
+     "offset": 502,
+     "type": "START",
+     "vslot": 12,
+     "ch": 0
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 40,
+     "type": "START",
+     "vslot": 13,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 240,
+     "type": "START",
+     "vslot": 14,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 2,
+     "offset": 440,
+     "type": "START",
+     "vslot": 15,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 90,
+     "type": "START",
+     "vslot": 13,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 290,
+     "type": "START",
+     "vslot": 14,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 2,
+     "offset": 490,
+     "type": "START",
+     "vslot": 15,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 140,
+     "type": "START",
+     "vslot": 13,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 340,
+     "type": "START",
+     "vslot": 14,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 190,
+     "type": "START",
+     "vslot": 13,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 390,
+     "type": "START",
+     "vslot": 14,
+     "ch": 0
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 128,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 328,
+     "type": "START",
+     "vslot": 1,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 178,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 378,
+     "type": "START",
+     "vslot": 1,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 28,
+     "type": "START",
+     "vslot": 15,
+     "ch": 0
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 228,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 78,
+     "type": "START",
+     "vslot": 15,
+     "ch": 0
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 278,
+     "type": "START",
+     "vslot": 0,
+     "ch": 0
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "events": [
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 404,
+     "type": "START",
+     "vslot": 1,
+     "ch": 9
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0248
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0273421
+    },
+    {
+     "w": 0,
+     "i": 2,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0300081
+    },
+    {
+     "w": 0,
+     "i": 3,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0327981
+    },
+    {
+     "w": 0,
+     "i": 4,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0357121
+    },
+    {
+     "w": 0,
+     "i": 5,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0387501
+    },
+    {
+     "w": 0,
+     "i": 6,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0419121
+    },
+    {
+     "w": 0,
+     "i": 7,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0451981
+    },
+    {
+     "w": 0,
+     "i": 8,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0486081
+    },
+    {
+     "w": 0,
+     "i": 9,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0521421
+    },
+    {
+     "w": 0,
+     "i": 10,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0558001
+    },
+    {
+     "w": 0,
+     "i": 11,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0595821
+    },
+    {
+     "w": 0,
+     "i": 12,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0634881
+    },
+    {
+     "w": 0,
+     "i": 13,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0675181
+    },
+    {
+     "w": 0,
+     "i": 14,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0716721
+    },
+    {
+     "w": 0,
+     "i": 15,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0759501
+    },
+    {
+     "w": 0,
+     "i": 16,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0803522
+    },
+    {
+     "w": 0,
+     "i": 17,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0848782
+    },
+    {
+     "w": 0,
+     "i": 18,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0895282
+    },
+    {
+     "w": 0,
+     "i": 19,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0943022
+    },
+    {
+     "w": 0,
+     "i": 20,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0992002
+    },
+    {
+     "w": 0,
+     "i": 21,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.104222
+    },
+    {
+     "w": 0,
+     "i": 22,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.109368
+    },
+    {
+     "w": 0,
+     "i": 23,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.114638
+    },
+    {
+     "w": 0,
+     "i": 24,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.120032
+    },
+    {
+     "w": 0,
+     "i": 25,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.12555
+    },
+    {
+     "w": 0,
+     "i": 26,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.131192
+    },
+    {
+     "w": 0,
+     "i": 27,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.136958
+    },
+    {
+     "w": 0,
+     "i": 28,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.142848
+    },
+    {
+     "w": 0,
+     "i": 29,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.148862
+    },
+    {
+     "w": 0,
+     "i": 30,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.155
+    },
+    {
+     "w": 0,
+     "i": 31,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.161262
+    },
+    {
+     "w": 0,
+     "i": 32,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.167648
+    },
+    {
+     "w": 0,
+     "i": 33,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.174158
+    },
+    {
+     "w": 0,
+     "i": 34,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.180792
+    },
+    {
+     "w": 0,
+     "i": 35,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.18755
+    },
+    {
+     "w": 0,
+     "i": 36,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.194432
+    },
+    {
+     "w": 0,
+     "i": 37,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.201438
+    },
+    {
+     "w": 0,
+     "i": 38,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.208568
+    },
+    {
+     "w": 0,
+     "i": 39,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.215822
+    },
+    {
+     "w": 0,
+     "i": 40,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.2232
+    },
+    {
+     "w": 0,
+     "i": 41,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.230702
+    },
+    {
+     "w": 0,
+     "i": 42,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.238328
+    },
+    {
+     "w": 0,
+     "i": 43,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.246078
+    },
+    {
+     "w": 0,
+     "i": 44,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.253953
+    },
+    {
+     "w": 0,
+     "i": 45,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.261951
+    },
+    {
+     "w": 0,
+     "i": 46,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.270073
+    },
+    {
+     "w": 0,
+     "i": 47,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.278319
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0248
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0273421
+    },
+    {
+     "w": 1,
+     "i": 2,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0300081
+    },
+    {
+     "w": 1,
+     "i": 3,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0327981
+    },
+    {
+     "w": 1,
+     "i": 4,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0357121
+    },
+    {
+     "w": 1,
+     "i": 5,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0387501
+    },
+    {
+     "w": 1,
+     "i": 6,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0419121
+    },
+    {
+     "w": 1,
+     "i": 7,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0451981
+    },
+    {
+     "w": 1,
+     "i": 8,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0486081
+    },
+    {
+     "w": 1,
+     "i": 9,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0521421
+    },
+    {
+     "w": 1,
+     "i": 10,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0558001
+    },
+    {
+     "w": 1,
+     "i": 11,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0595821
+    },
+    {
+     "w": 1,
+     "i": 12,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0634881
+    },
+    {
+     "w": 1,
+     "i": 13,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0675181
+    },
+    {
+     "w": 1,
+     "i": 14,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0716721
+    },
+    {
+     "w": 1,
+     "i": 15,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0759501
+    },
+    {
+     "w": 1,
+     "i": 16,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0803522
+    },
+    {
+     "w": 1,
+     "i": 17,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0848782
+    },
+    {
+     "w": 1,
+     "i": 18,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0895282
+    },
+    {
+     "w": 1,
+     "i": 19,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0943022
+    },
+    {
+     "w": 1,
+     "i": 20,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0992002
+    },
+    {
+     "w": 1,
+     "i": 21,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.104222
+    },
+    {
+     "w": 1,
+     "i": 22,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.109368
+    },
+    {
+     "w": 1,
+     "i": 23,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.114638
+    },
+    {
+     "w": 1,
+     "i": 24,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.120032
+    },
+    {
+     "w": 1,
+     "i": 25,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.12555
+    },
+    {
+     "w": 1,
+     "i": 26,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.131192
+    },
+    {
+     "w": 1,
+     "i": 27,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.136958
+    },
+    {
+     "w": 1,
+     "i": 28,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.142848
+    },
+    {
+     "w": 1,
+     "i": 29,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.148862
+    },
+    {
+     "w": 1,
+     "i": 30,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.155
+    },
+    {
+     "w": 1,
+     "i": 31,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.161262
+    },
+    {
+     "w": 1,
+     "i": 32,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.167648
+    },
+    {
+     "w": 1,
+     "i": 33,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.174158
+    },
+    {
+     "w": 1,
+     "i": 34,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.180792
+    },
+    {
+     "w": 1,
+     "i": 35,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.18755
+    },
+    {
+     "w": 1,
+     "i": 36,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.194432
+    },
+    {
+     "w": 1,
+     "i": 37,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.201438
+    },
+    {
+     "w": 1,
+     "i": 38,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.208568
+    },
+    {
+     "w": 1,
+     "i": 39,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.215822
+    },
+    {
+     "w": 1,
+     "i": 40,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.2232
+    },
+    {
+     "w": 1,
+     "i": 41,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.230702
+    },
+    {
+     "w": 1,
+     "i": 42,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.238328
+    },
+    {
+     "w": 1,
+     "i": 43,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.246078
+    },
+    {
+     "w": 1,
+     "i": 44,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.253953
+    },
+    {
+     "w": 1,
+     "i": 45,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.261951
+    },
+    {
+     "w": 1,
+     "i": 46,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.270073
+    },
+    {
+     "w": 1,
+     "i": 47,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.278319
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0248
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0273421
+    },
+    {
+     "w": 2,
+     "i": 2,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0300081
+    },
+    {
+     "w": 2,
+     "i": 3,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0327981
+    },
+    {
+     "w": 2,
+     "i": 4,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0357121
+    },
+    {
+     "w": 2,
+     "i": 5,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0387501
+    },
+    {
+     "w": 2,
+     "i": 6,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0419121
+    },
+    {
+     "w": 2,
+     "i": 7,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0451981
+    },
+    {
+     "w": 2,
+     "i": 8,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0486081
+    },
+    {
+     "w": 2,
+     "i": 9,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0521421
+    },
+    {
+     "w": 2,
+     "i": 10,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0558001
+    },
+    {
+     "w": 2,
+     "i": 11,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0595821
+    },
+    {
+     "w": 2,
+     "i": 12,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0634881
+    },
+    {
+     "w": 2,
+     "i": 13,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0675181
+    },
+    {
+     "w": 2,
+     "i": 14,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0716721
+    },
+    {
+     "w": 2,
+     "i": 15,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0759501
+    },
+    {
+     "w": 2,
+     "i": 16,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0803522
+    },
+    {
+     "w": 2,
+     "i": 17,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0848782
+    },
+    {
+     "w": 2,
+     "i": 18,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0895282
+    },
+    {
+     "w": 2,
+     "i": 19,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0943022
+    },
+    {
+     "w": 2,
+     "i": 20,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0992002
+    },
+    {
+     "w": 2,
+     "i": 21,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.104222
+    },
+    {
+     "w": 2,
+     "i": 22,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.109368
+    },
+    {
+     "w": 2,
+     "i": 23,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.114638
+    },
+    {
+     "w": 2,
+     "i": 24,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.120032
+    },
+    {
+     "w": 2,
+     "i": 25,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.12555
+    },
+    {
+     "w": 2,
+     "i": 26,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.131192
+    },
+    {
+     "w": 2,
+     "i": 27,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.136958
+    },
+    {
+     "w": 2,
+     "i": 28,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.142848
+    },
+    {
+     "w": 2,
+     "i": 29,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.148862
+    },
+    {
+     "w": 2,
+     "i": 30,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.155
+    },
+    {
+     "w": 2,
+     "i": 31,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.161262
+    },
+    {
+     "w": 2,
+     "i": 32,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.167648
+    },
+    {
+     "w": 2,
+     "i": 33,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.174158
+    },
+    {
+     "w": 2,
+     "i": 34,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.180792
+    },
+    {
+     "w": 2,
+     "i": 35,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.18755
+    },
+    {
+     "w": 2,
+     "i": 36,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.194432
+    },
+    {
+     "w": 2,
+     "i": 37,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.201438
+    },
+    {
+     "w": 2,
+     "i": 38,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.208568
+    },
+    {
+     "w": 2,
+     "i": 39,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.215822
+    },
+    {
+     "w": 2,
+     "i": 40,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.2232
+    },
+    {
+     "w": 2,
+     "i": 41,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.230702
+    },
+    {
+     "w": 2,
+     "i": 42,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.238328
+    },
+    {
+     "w": 2,
+     "i": 43,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.246078
+    },
+    {
+     "w": 2,
+     "i": 44,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.253953
+    },
+    {
+     "w": 2,
+     "i": 45,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.261951
+    },
+    {
+     "w": 2,
+     "i": 46,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.270073
+    },
+    {
+     "w": 2,
+     "i": 47,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.278319
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0248
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0273421
+    },
+    {
+     "w": 3,
+     "i": 2,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0300081
+    },
+    {
+     "w": 3,
+     "i": 3,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0327981
+    },
+    {
+     "w": 3,
+     "i": 4,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0357121
+    },
+    {
+     "w": 3,
+     "i": 5,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0387501
+    },
+    {
+     "w": 3,
+     "i": 6,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0419121
+    },
+    {
+     "w": 3,
+     "i": 7,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0451981
+    },
+    {
+     "w": 3,
+     "i": 8,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0486081
+    },
+    {
+     "w": 3,
+     "i": 9,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0521421
+    },
+    {
+     "w": 3,
+     "i": 10,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0558001
+    },
+    {
+     "w": 3,
+     "i": 11,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0595821
+    },
+    {
+     "w": 3,
+     "i": 12,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0634881
+    },
+    {
+     "w": 3,
+     "i": 13,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0675181
+    },
+    {
+     "w": 3,
+     "i": 14,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0716721
+    },
+    {
+     "w": 3,
+     "i": 15,
+     "offset": 392,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0759501
+    },
+    {
+     "w": 3,
+     "i": 16,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0803522
+    },
+    {
+     "w": 3,
+     "i": 17,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0848782
+    },
+    {
+     "w": 3,
+     "i": 18,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0895282
+    },
+    {
+     "w": 3,
+     "i": 19,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0943022
+    },
+    {
+     "w": 3,
+     "i": 20,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0992002
+    },
+    {
+     "w": 3,
+     "i": 21,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.104222
+    },
+    {
+     "w": 3,
+     "i": 22,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.109368
+    },
+    {
+     "w": 3,
+     "i": 23,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.114638
+    },
+    {
+     "w": 3,
+     "i": 24,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.120032
+    },
+    {
+     "w": 3,
+     "i": 25,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.12555
+    },
+    {
+     "w": 3,
+     "i": 26,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.131192
+    },
+    {
+     "w": 3,
+     "i": 27,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.136958
+    },
+    {
+     "w": 3,
+     "i": 28,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.142848
+    },
+    {
+     "w": 3,
+     "i": 29,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.148862
+    },
+    {
+     "w": 3,
+     "i": 30,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.155
+    },
+    {
+     "w": 3,
+     "i": 31,
+     "offset": 442,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.161262
+    },
+    {
+     "w": 3,
+     "i": 32,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.167648
+    },
+    {
+     "w": 3,
+     "i": 33,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.174158
+    },
+    {
+     "w": 3,
+     "i": 34,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.180792
+    },
+    {
+     "w": 3,
+     "i": 35,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.18755
+    },
+    {
+     "w": 3,
+     "i": 36,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.194432
+    },
+    {
+     "w": 3,
+     "i": 37,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.201438
+    },
+    {
+     "w": 3,
+     "i": 38,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.208568
+    },
+    {
+     "w": 3,
+     "i": 39,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.215822
+    },
+    {
+     "w": 3,
+     "i": 40,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.2232
+    },
+    {
+     "w": 3,
+     "i": 41,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.230702
+    },
+    {
+     "w": 3,
+     "i": 42,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.238328
+    },
+    {
+     "w": 3,
+     "i": 43,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.246078
+    },
+    {
+     "w": 3,
+     "i": 44,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.253953
+    },
+    {
+     "w": 3,
+     "i": 45,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.261951
+    },
+    {
+     "w": 3,
+     "i": 46,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.270073
+    },
+    {
+     "w": 3,
+     "i": 47,
+     "offset": 492,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.278319
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.286689
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.295183
+    },
+    {
+     "w": 0,
+     "i": 2,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.303801
+    },
+    {
+     "w": 0,
+     "i": 3,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.312543
+    },
+    {
+     "w": 0,
+     "i": 4,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.321409
+    },
+    {
+     "w": 0,
+     "i": 5,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.330399
+    },
+    {
+     "w": 0,
+     "i": 6,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.339513
+    },
+    {
+     "w": 0,
+     "i": 7,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.348751
+    },
+    {
+     "w": 0,
+     "i": 8,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.358113
+    },
+    {
+     "w": 0,
+     "i": 9,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.367599
+    },
+    {
+     "w": 0,
+     "i": 10,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.377209
+    },
+    {
+     "w": 0,
+     "i": 11,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.386943
+    },
+    {
+     "w": 0,
+     "i": 12,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.396801
+    },
+    {
+     "w": 0,
+     "i": 13,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.406783
+    },
+    {
+     "w": 0,
+     "i": 14,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.416889
+    },
+    {
+     "w": 0,
+     "i": 15,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.427119
+    },
+    {
+     "w": 0,
+     "i": 16,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.437473
+    },
+    {
+     "w": 0,
+     "i": 17,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.447951
+    },
+    {
+     "w": 0,
+     "i": 18,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.458553
+    },
+    {
+     "w": 0,
+     "i": 19,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.469279
+    },
+    {
+     "w": 0,
+     "i": 20,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.480129
+    },
+    {
+     "w": 0,
+     "i": 21,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.491103
+    },
+    {
+     "w": 0,
+     "i": 22,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.502201
+    },
+    {
+     "w": 0,
+     "i": 23,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.513423
+    },
+    {
+     "w": 0,
+     "i": 24,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.524769
+    },
+    {
+     "w": 0,
+     "i": 25,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.536239
+    },
+    {
+     "w": 0,
+     "i": 26,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.547833
+    },
+    {
+     "w": 0,
+     "i": 27,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.559551
+    },
+    {
+     "w": 0,
+     "i": 28,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.571393
+    },
+    {
+     "w": 0,
+     "i": 29,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.583359
+    },
+    {
+     "w": 0,
+     "i": 30,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.595449
+    },
+    {
+     "w": 0,
+     "i": 31,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.607663
+    },
+    {
+     "w": 0,
+     "i": 32,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 33,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.632463
+    },
+    {
+     "w": 0,
+     "i": 34,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.645049
+    },
+    {
+     "w": 0,
+     "i": 35,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.657759
+    },
+    {
+     "w": 0,
+     "i": 36,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.670593
+    },
+    {
+     "w": 0,
+     "i": 37,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.683551
+    },
+    {
+     "w": 0,
+     "i": 38,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.696633
+    },
+    {
+     "w": 0,
+     "i": 39,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.709839
+    },
+    {
+     "w": 0,
+     "i": 40,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.723169
+    },
+    {
+     "w": 0,
+     "i": 41,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.736623
+    },
+    {
+     "w": 0,
+     "i": 42,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.750202
+    },
+    {
+     "w": 0,
+     "i": 43,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.763904
+    },
+    {
+     "w": 0,
+     "i": 44,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.77773
+    },
+    {
+     "w": 0,
+     "i": 45,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.79168
+    },
+    {
+     "w": 0,
+     "i": 46,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.805754
+    },
+    {
+     "w": 0,
+     "i": 47,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.819952
+    },
+    {
+     "w": 0,
+     "i": 48,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.834274
+    },
+    {
+     "w": 0,
+     "i": 49,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.84872
+    },
+    {
+     "w": 0,
+     "i": 50,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.86329
+    },
+    {
+     "w": 0,
+     "i": 51,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.877984
+    },
+    {
+     "w": 0,
+     "i": 52,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0248
+    },
+    {
+     "w": 0,
+     "i": 53,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0273421
+    },
+    {
+     "w": 0,
+     "i": 54,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0300081
+    },
+    {
+     "w": 0,
+     "i": 55,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0327981
+    },
+    {
+     "w": 0,
+     "i": 56,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0357121
+    },
+    {
+     "w": 0,
+     "i": 57,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0387501
+    },
+    {
+     "w": 0,
+     "i": 58,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0419121
+    },
+    {
+     "w": 0,
+     "i": 59,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0451981
+    },
+    {
+     "w": 0,
+     "i": 60,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0486081
+    },
+    {
+     "w": 0,
+     "i": 61,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0521421
+    },
+    {
+     "w": 0,
+     "i": 62,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0558001
+    },
+    {
+     "w": 0,
+     "i": 63,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0595821
+    },
+    {
+     "w": 0,
+     "i": 64,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0634881
+    },
+    {
+     "w": 0,
+     "i": 65,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0675181
+    },
+    {
+     "w": 0,
+     "i": 66,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0716721
+    },
+    {
+     "w": 0,
+     "i": 67,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0759501
+    },
+    {
+     "w": 0,
+     "i": 68,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0803522
+    },
+    {
+     "w": 0,
+     "i": 69,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0848782
+    },
+    {
+     "w": 0,
+     "i": 70,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0895282
+    },
+    {
+     "w": 0,
+     "i": 71,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0943022
+    },
+    {
+     "w": 0,
+     "i": 72,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0992002
+    },
+    {
+     "w": 0,
+     "i": 73,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.104222
+    },
+    {
+     "w": 0,
+     "i": 74,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.109368
+    },
+    {
+     "w": 0,
+     "i": 75,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.114638
+    },
+    {
+     "w": 0,
+     "i": 76,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.120032
+    },
+    {
+     "w": 0,
+     "i": 77,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.12555
+    },
+    {
+     "w": 0,
+     "i": 78,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.131192
+    },
+    {
+     "w": 0,
+     "i": 79,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.136958
+    },
+    {
+     "w": 0,
+     "i": 80,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.142848
+    },
+    {
+     "w": 0,
+     "i": 81,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.148862
+    },
+    {
+     "w": 0,
+     "i": 82,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.155
+    },
+    {
+     "w": 0,
+     "i": 83,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.161262
+    },
+    {
+     "w": 0,
+     "i": 84,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.167648
+    },
+    {
+     "w": 0,
+     "i": 85,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.174158
+    },
+    {
+     "w": 0,
+     "i": 86,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.180792
+    },
+    {
+     "w": 0,
+     "i": 87,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.18755
+    },
+    {
+     "w": 0,
+     "i": 88,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.194432
+    },
+    {
+     "w": 0,
+     "i": 89,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.201438
+    },
+    {
+     "w": 0,
+     "i": 90,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.208568
+    },
+    {
+     "w": 0,
+     "i": 91,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.215822
+    },
+    {
+     "w": 0,
+     "i": 92,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.2232
+    },
+    {
+     "w": 0,
+     "i": 93,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.230702
+    },
+    {
+     "w": 0,
+     "i": 94,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.238328
+    },
+    {
+     "w": 0,
+     "i": 95,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.246078
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.286689
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.295183
+    },
+    {
+     "w": 1,
+     "i": 2,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.303801
+    },
+    {
+     "w": 1,
+     "i": 3,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.312543
+    },
+    {
+     "w": 1,
+     "i": 4,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.321409
+    },
+    {
+     "w": 1,
+     "i": 5,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.330399
+    },
+    {
+     "w": 1,
+     "i": 6,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.339513
+    },
+    {
+     "w": 1,
+     "i": 7,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.348751
+    },
+    {
+     "w": 1,
+     "i": 8,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.358113
+    },
+    {
+     "w": 1,
+     "i": 9,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.367599
+    },
+    {
+     "w": 1,
+     "i": 10,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.377209
+    },
+    {
+     "w": 1,
+     "i": 11,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.386943
+    },
+    {
+     "w": 1,
+     "i": 12,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.396801
+    },
+    {
+     "w": 1,
+     "i": 13,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.406783
+    },
+    {
+     "w": 1,
+     "i": 14,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.416889
+    },
+    {
+     "w": 1,
+     "i": 15,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.427119
+    },
+    {
+     "w": 1,
+     "i": 16,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.437473
+    },
+    {
+     "w": 1,
+     "i": 17,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.447951
+    },
+    {
+     "w": 1,
+     "i": 18,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.458553
+    },
+    {
+     "w": 1,
+     "i": 19,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.469279
+    },
+    {
+     "w": 1,
+     "i": 20,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.480129
+    },
+    {
+     "w": 1,
+     "i": 21,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.491103
+    },
+    {
+     "w": 1,
+     "i": 22,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.502201
+    },
+    {
+     "w": 1,
+     "i": 23,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.513423
+    },
+    {
+     "w": 1,
+     "i": 24,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.524769
+    },
+    {
+     "w": 1,
+     "i": 25,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.536239
+    },
+    {
+     "w": 1,
+     "i": 26,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.547833
+    },
+    {
+     "w": 1,
+     "i": 27,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.559551
+    },
+    {
+     "w": 1,
+     "i": 28,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.571393
+    },
+    {
+     "w": 1,
+     "i": 29,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.583359
+    },
+    {
+     "w": 1,
+     "i": 30,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.595449
+    },
+    {
+     "w": 1,
+     "i": 31,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.607663
+    },
+    {
+     "w": 1,
+     "i": 32,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 33,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.632463
+    },
+    {
+     "w": 1,
+     "i": 34,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.645049
+    },
+    {
+     "w": 1,
+     "i": 35,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.657759
+    },
+    {
+     "w": 1,
+     "i": 36,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.670593
+    },
+    {
+     "w": 1,
+     "i": 37,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.683551
+    },
+    {
+     "w": 1,
+     "i": 38,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.696633
+    },
+    {
+     "w": 1,
+     "i": 39,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.709839
+    },
+    {
+     "w": 1,
+     "i": 40,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.723169
+    },
+    {
+     "w": 1,
+     "i": 41,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.736623
+    },
+    {
+     "w": 1,
+     "i": 42,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.750202
+    },
+    {
+     "w": 1,
+     "i": 43,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.763904
+    },
+    {
+     "w": 1,
+     "i": 44,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.77773
+    },
+    {
+     "w": 1,
+     "i": 45,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.79168
+    },
+    {
+     "w": 1,
+     "i": 46,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.805754
+    },
+    {
+     "w": 1,
+     "i": 47,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.819952
+    },
+    {
+     "w": 1,
+     "i": 48,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.834274
+    },
+    {
+     "w": 1,
+     "i": 49,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.84872
+    },
+    {
+     "w": 1,
+     "i": 50,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.86329
+    },
+    {
+     "w": 1,
+     "i": 51,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.877984
+    },
+    {
+     "w": 1,
+     "i": 52,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0248
+    },
+    {
+     "w": 1,
+     "i": 53,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0273421
+    },
+    {
+     "w": 1,
+     "i": 54,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0300081
+    },
+    {
+     "w": 1,
+     "i": 55,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0327981
+    },
+    {
+     "w": 1,
+     "i": 56,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0357121
+    },
+    {
+     "w": 1,
+     "i": 57,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0387501
+    },
+    {
+     "w": 1,
+     "i": 58,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0419121
+    },
+    {
+     "w": 1,
+     "i": 59,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0451981
+    },
+    {
+     "w": 1,
+     "i": 60,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0486081
+    },
+    {
+     "w": 1,
+     "i": 61,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0521421
+    },
+    {
+     "w": 1,
+     "i": 62,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0558001
+    },
+    {
+     "w": 1,
+     "i": 63,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0595821
+    },
+    {
+     "w": 1,
+     "i": 64,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0634881
+    },
+    {
+     "w": 1,
+     "i": 65,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0675181
+    },
+    {
+     "w": 1,
+     "i": 66,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0716721
+    },
+    {
+     "w": 1,
+     "i": 67,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0759501
+    },
+    {
+     "w": 1,
+     "i": 68,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0803522
+    },
+    {
+     "w": 1,
+     "i": 69,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0848782
+    },
+    {
+     "w": 1,
+     "i": 70,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0895282
+    },
+    {
+     "w": 1,
+     "i": 71,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0943022
+    },
+    {
+     "w": 1,
+     "i": 72,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0992002
+    },
+    {
+     "w": 1,
+     "i": 73,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.104222
+    },
+    {
+     "w": 1,
+     "i": 74,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.109368
+    },
+    {
+     "w": 1,
+     "i": 75,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.114638
+    },
+    {
+     "w": 1,
+     "i": 76,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.120032
+    },
+    {
+     "w": 1,
+     "i": 77,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.12555
+    },
+    {
+     "w": 1,
+     "i": 78,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.131192
+    },
+    {
+     "w": 1,
+     "i": 79,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.136958
+    },
+    {
+     "w": 1,
+     "i": 80,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.142848
+    },
+    {
+     "w": 1,
+     "i": 81,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.148862
+    },
+    {
+     "w": 1,
+     "i": 82,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.155
+    },
+    {
+     "w": 1,
+     "i": 83,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.161262
+    },
+    {
+     "w": 1,
+     "i": 84,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.167648
+    },
+    {
+     "w": 1,
+     "i": 85,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.174158
+    },
+    {
+     "w": 1,
+     "i": 86,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.180792
+    },
+    {
+     "w": 1,
+     "i": 87,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.18755
+    },
+    {
+     "w": 1,
+     "i": 88,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.194432
+    },
+    {
+     "w": 1,
+     "i": 89,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.201438
+    },
+    {
+     "w": 1,
+     "i": 90,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.208568
+    },
+    {
+     "w": 1,
+     "i": 91,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.215822
+    },
+    {
+     "w": 1,
+     "i": 92,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.2232
+    },
+    {
+     "w": 1,
+     "i": 93,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.230702
+    },
+    {
+     "w": 1,
+     "i": 94,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.238328
+    },
+    {
+     "w": 1,
+     "i": 95,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.246078
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.286689
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.295183
+    },
+    {
+     "w": 2,
+     "i": 2,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.303801
+    },
+    {
+     "w": 2,
+     "i": 3,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.312543
+    },
+    {
+     "w": 2,
+     "i": 4,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.321409
+    },
+    {
+     "w": 2,
+     "i": 5,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.330399
+    },
+    {
+     "w": 2,
+     "i": 6,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.339513
+    },
+    {
+     "w": 2,
+     "i": 7,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.348751
+    },
+    {
+     "w": 2,
+     "i": 8,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.358113
+    },
+    {
+     "w": 2,
+     "i": 9,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.367599
+    },
+    {
+     "w": 2,
+     "i": 10,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.377209
+    },
+    {
+     "w": 2,
+     "i": 11,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.386943
+    },
+    {
+     "w": 2,
+     "i": 12,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.396801
+    },
+    {
+     "w": 2,
+     "i": 13,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.406783
+    },
+    {
+     "w": 2,
+     "i": 14,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.416889
+    },
+    {
+     "w": 2,
+     "i": 15,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.427119
+    },
+    {
+     "w": 2,
+     "i": 16,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.437473
+    },
+    {
+     "w": 2,
+     "i": 17,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.447951
+    },
+    {
+     "w": 2,
+     "i": 18,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.458553
+    },
+    {
+     "w": 2,
+     "i": 19,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.469279
+    },
+    {
+     "w": 2,
+     "i": 20,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.480129
+    },
+    {
+     "w": 2,
+     "i": 21,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.491103
+    },
+    {
+     "w": 2,
+     "i": 22,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.502201
+    },
+    {
+     "w": 2,
+     "i": 23,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.513423
+    },
+    {
+     "w": 2,
+     "i": 24,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.524769
+    },
+    {
+     "w": 2,
+     "i": 25,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.536239
+    },
+    {
+     "w": 2,
+     "i": 26,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.547833
+    },
+    {
+     "w": 2,
+     "i": 27,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.559551
+    },
+    {
+     "w": 2,
+     "i": 28,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.571393
+    },
+    {
+     "w": 2,
+     "i": 29,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.583359
+    },
+    {
+     "w": 2,
+     "i": 30,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.595449
+    },
+    {
+     "w": 2,
+     "i": 31,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.607663
+    },
+    {
+     "w": 2,
+     "i": 32,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 33,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.632463
+    },
+    {
+     "w": 2,
+     "i": 34,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.645049
+    },
+    {
+     "w": 2,
+     "i": 35,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.657759
+    },
+    {
+     "w": 2,
+     "i": 36,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.670593
+    },
+    {
+     "w": 2,
+     "i": 37,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.683551
+    },
+    {
+     "w": 2,
+     "i": 38,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.696633
+    },
+    {
+     "w": 2,
+     "i": 39,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.709839
+    },
+    {
+     "w": 2,
+     "i": 40,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.723169
+    },
+    {
+     "w": 2,
+     "i": 41,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.736623
+    },
+    {
+     "w": 2,
+     "i": 42,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.750202
+    },
+    {
+     "w": 2,
+     "i": 43,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.763904
+    },
+    {
+     "w": 2,
+     "i": 44,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.77773
+    },
+    {
+     "w": 2,
+     "i": 45,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.79168
+    },
+    {
+     "w": 2,
+     "i": 46,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.805754
+    },
+    {
+     "w": 2,
+     "i": 47,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.819952
+    },
+    {
+     "w": 2,
+     "i": 48,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.834274
+    },
+    {
+     "w": 2,
+     "i": 49,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.84872
+    },
+    {
+     "w": 2,
+     "i": 50,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.86329
+    },
+    {
+     "w": 2,
+     "i": 51,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.877984
+    },
+    {
+     "w": 2,
+     "i": 52,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0248
+    },
+    {
+     "w": 2,
+     "i": 53,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0273421
+    },
+    {
+     "w": 2,
+     "i": 54,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0300081
+    },
+    {
+     "w": 2,
+     "i": 55,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0327981
+    },
+    {
+     "w": 2,
+     "i": 56,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0357121
+    },
+    {
+     "w": 2,
+     "i": 57,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0387501
+    },
+    {
+     "w": 2,
+     "i": 58,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0419121
+    },
+    {
+     "w": 2,
+     "i": 59,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0451981
+    },
+    {
+     "w": 2,
+     "i": 60,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0486081
+    },
+    {
+     "w": 2,
+     "i": 61,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0521421
+    },
+    {
+     "w": 2,
+     "i": 62,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0558001
+    },
+    {
+     "w": 2,
+     "i": 63,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0595821
+    },
+    {
+     "w": 2,
+     "i": 64,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0634881
+    },
+    {
+     "w": 2,
+     "i": 65,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0675181
+    },
+    {
+     "w": 2,
+     "i": 66,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0716721
+    },
+    {
+     "w": 2,
+     "i": 67,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0759501
+    },
+    {
+     "w": 2,
+     "i": 68,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0803522
+    },
+    {
+     "w": 2,
+     "i": 69,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0848782
+    },
+    {
+     "w": 2,
+     "i": 70,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0895282
+    },
+    {
+     "w": 2,
+     "i": 71,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0943022
+    },
+    {
+     "w": 2,
+     "i": 72,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0992002
+    },
+    {
+     "w": 2,
+     "i": 73,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.104222
+    },
+    {
+     "w": 2,
+     "i": 74,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.109368
+    },
+    {
+     "w": 2,
+     "i": 75,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.114638
+    },
+    {
+     "w": 2,
+     "i": 76,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.120032
+    },
+    {
+     "w": 2,
+     "i": 77,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.12555
+    },
+    {
+     "w": 2,
+     "i": 78,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.131192
+    },
+    {
+     "w": 2,
+     "i": 79,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.136958
+    },
+    {
+     "w": 2,
+     "i": 80,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.142848
+    },
+    {
+     "w": 2,
+     "i": 81,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.148862
+    },
+    {
+     "w": 2,
+     "i": 82,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.155
+    },
+    {
+     "w": 2,
+     "i": 83,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.161262
+    },
+    {
+     "w": 2,
+     "i": 84,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.167648
+    },
+    {
+     "w": 2,
+     "i": 85,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.174158
+    },
+    {
+     "w": 2,
+     "i": 86,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.180792
+    },
+    {
+     "w": 2,
+     "i": 87,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.18755
+    },
+    {
+     "w": 2,
+     "i": 88,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.194432
+    },
+    {
+     "w": 2,
+     "i": 89,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.201438
+    },
+    {
+     "w": 2,
+     "i": 90,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.208568
+    },
+    {
+     "w": 2,
+     "i": 91,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.215822
+    },
+    {
+     "w": 2,
+     "i": 92,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.2232
+    },
+    {
+     "w": 2,
+     "i": 93,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.230702
+    },
+    {
+     "w": 2,
+     "i": 94,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.238328
+    },
+    {
+     "w": 2,
+     "i": 95,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.246078
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.286689
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.295183
+    },
+    {
+     "w": 3,
+     "i": 2,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.303801
+    },
+    {
+     "w": 3,
+     "i": 3,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.312543
+    },
+    {
+     "w": 3,
+     "i": 4,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.321409
+    },
+    {
+     "w": 3,
+     "i": 5,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.330399
+    },
+    {
+     "w": 3,
+     "i": 6,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.339513
+    },
+    {
+     "w": 3,
+     "i": 7,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.348751
+    },
+    {
+     "w": 3,
+     "i": 8,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.358113
+    },
+    {
+     "w": 3,
+     "i": 9,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.367599
+    },
+    {
+     "w": 3,
+     "i": 10,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.377209
+    },
+    {
+     "w": 3,
+     "i": 11,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.386943
+    },
+    {
+     "w": 3,
+     "i": 12,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.396801
+    },
+    {
+     "w": 3,
+     "i": 13,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.406783
+    },
+    {
+     "w": 3,
+     "i": 14,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.416889
+    },
+    {
+     "w": 3,
+     "i": 15,
+     "offset": 30,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.427119
+    },
+    {
+     "w": 3,
+     "i": 16,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.437473
+    },
+    {
+     "w": 3,
+     "i": 17,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.447951
+    },
+    {
+     "w": 3,
+     "i": 18,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.458553
+    },
+    {
+     "w": 3,
+     "i": 19,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.469279
+    },
+    {
+     "w": 3,
+     "i": 20,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.480129
+    },
+    {
+     "w": 3,
+     "i": 21,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.491103
+    },
+    {
+     "w": 3,
+     "i": 22,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.502201
+    },
+    {
+     "w": 3,
+     "i": 23,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.513423
+    },
+    {
+     "w": 3,
+     "i": 24,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.524769
+    },
+    {
+     "w": 3,
+     "i": 25,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.536239
+    },
+    {
+     "w": 3,
+     "i": 26,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.547833
+    },
+    {
+     "w": 3,
+     "i": 27,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.559551
+    },
+    {
+     "w": 3,
+     "i": 28,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.571393
+    },
+    {
+     "w": 3,
+     "i": 29,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.583359
+    },
+    {
+     "w": 3,
+     "i": 30,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.595449
+    },
+    {
+     "w": 3,
+     "i": 31,
+     "offset": 80,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.607663
+    },
+    {
+     "w": 3,
+     "i": 32,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 33,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.632463
+    },
+    {
+     "w": 3,
+     "i": 34,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.645049
+    },
+    {
+     "w": 3,
+     "i": 35,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.657759
+    },
+    {
+     "w": 3,
+     "i": 36,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.670593
+    },
+    {
+     "w": 3,
+     "i": 37,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.683551
+    },
+    {
+     "w": 3,
+     "i": 38,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.696633
+    },
+    {
+     "w": 3,
+     "i": 39,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.709839
+    },
+    {
+     "w": 3,
+     "i": 40,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.723169
+    },
+    {
+     "w": 3,
+     "i": 41,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.736623
+    },
+    {
+     "w": 3,
+     "i": 42,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.750202
+    },
+    {
+     "w": 3,
+     "i": 43,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.763904
+    },
+    {
+     "w": 3,
+     "i": 44,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.77773
+    },
+    {
+     "w": 3,
+     "i": 45,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.79168
+    },
+    {
+     "w": 3,
+     "i": 46,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.805754
+    },
+    {
+     "w": 3,
+     "i": 47,
+     "offset": 130,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.819952
+    },
+    {
+     "w": 3,
+     "i": 48,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.834274
+    },
+    {
+     "w": 3,
+     "i": 49,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.84872
+    },
+    {
+     "w": 3,
+     "i": 50,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.86329
+    },
+    {
+     "w": 3,
+     "i": 51,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.877984
+    },
+    {
+     "w": 3,
+     "i": 52,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0248
+    },
+    {
+     "w": 3,
+     "i": 53,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0273421
+    },
+    {
+     "w": 3,
+     "i": 54,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0300081
+    },
+    {
+     "w": 3,
+     "i": 55,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0327981
+    },
+    {
+     "w": 3,
+     "i": 56,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0357121
+    },
+    {
+     "w": 3,
+     "i": 57,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0387501
+    },
+    {
+     "w": 3,
+     "i": 58,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0419121
+    },
+    {
+     "w": 3,
+     "i": 59,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0451981
+    },
+    {
+     "w": 3,
+     "i": 60,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0486081
+    },
+    {
+     "w": 3,
+     "i": 61,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0521421
+    },
+    {
+     "w": 3,
+     "i": 62,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0558001
+    },
+    {
+     "w": 3,
+     "i": 63,
+     "offset": 180,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0595821
+    },
+    {
+     "w": 3,
+     "i": 64,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0634881
+    },
+    {
+     "w": 3,
+     "i": 65,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0675181
+    },
+    {
+     "w": 3,
+     "i": 66,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0716721
+    },
+    {
+     "w": 3,
+     "i": 67,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0759501
+    },
+    {
+     "w": 3,
+     "i": 68,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0803522
+    },
+    {
+     "w": 3,
+     "i": 69,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0848782
+    },
+    {
+     "w": 3,
+     "i": 70,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0895282
+    },
+    {
+     "w": 3,
+     "i": 71,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0943022
+    },
+    {
+     "w": 3,
+     "i": 72,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0992002
+    },
+    {
+     "w": 3,
+     "i": 73,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.104222
+    },
+    {
+     "w": 3,
+     "i": 74,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.109368
+    },
+    {
+     "w": 3,
+     "i": 75,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.114638
+    },
+    {
+     "w": 3,
+     "i": 76,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.120032
+    },
+    {
+     "w": 3,
+     "i": 77,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.12555
+    },
+    {
+     "w": 3,
+     "i": 78,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.131192
+    },
+    {
+     "w": 3,
+     "i": 79,
+     "offset": 230,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.136958
+    },
+    {
+     "w": 3,
+     "i": 80,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.142848
+    },
+    {
+     "w": 3,
+     "i": 81,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.148862
+    },
+    {
+     "w": 3,
+     "i": 82,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.155
+    },
+    {
+     "w": 3,
+     "i": 83,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.161262
+    },
+    {
+     "w": 3,
+     "i": 84,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.167648
+    },
+    {
+     "w": 3,
+     "i": 85,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.174158
+    },
+    {
+     "w": 3,
+     "i": 86,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.180792
+    },
+    {
+     "w": 3,
+     "i": 87,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.18755
+    },
+    {
+     "w": 3,
+     "i": 88,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.194432
+    },
+    {
+     "w": 3,
+     "i": 89,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.201438
+    },
+    {
+     "w": 3,
+     "i": 90,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.208568
+    },
+    {
+     "w": 3,
+     "i": 91,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.215822
+    },
+    {
+     "w": 3,
+     "i": 92,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.2232
+    },
+    {
+     "w": 3,
+     "i": 93,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.230702
+    },
+    {
+     "w": 3,
+     "i": 94,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.238328
+    },
+    {
+     "w": 3,
+     "i": 95,
+     "offset": 280,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.246078
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "events": [
+    {
+     "w": 0,
+     "i": 0,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0486081
+    },
+    {
+     "w": 0,
+     "i": 1,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0521421
+    },
+    {
+     "w": 0,
+     "i": 2,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0558001
+    },
+    {
+     "w": 0,
+     "i": 3,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0595821
+    },
+    {
+     "w": 0,
+     "i": 4,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0634881
+    },
+    {
+     "w": 0,
+     "i": 5,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0675181
+    },
+    {
+     "w": 0,
+     "i": 6,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0716721
+    },
+    {
+     "w": 0,
+     "i": 7,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0759501
+    },
+    {
+     "w": 0,
+     "i": 8,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0803522
+    },
+    {
+     "w": 0,
+     "i": 9,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0848782
+    },
+    {
+     "w": 0,
+     "i": 10,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0895282
+    },
+    {
+     "w": 0,
+     "i": 11,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0943022
+    },
+    {
+     "w": 0,
+     "i": 12,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0992002
+    },
+    {
+     "w": 0,
+     "i": 13,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.104222
+    },
+    {
+     "w": 0,
+     "i": 14,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.109368
+    },
+    {
+     "w": 0,
+     "i": 15,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.114638
+    },
+    {
+     "w": 0,
+     "i": 16,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.120032
+    },
+    {
+     "w": 0,
+     "i": 17,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.12555
+    },
+    {
+     "w": 0,
+     "i": 18,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.131192
+    },
+    {
+     "w": 0,
+     "i": 19,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.136958
+    },
+    {
+     "w": 0,
+     "i": 20,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.142848
+    },
+    {
+     "w": 0,
+     "i": 21,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.148862
+    },
+    {
+     "w": 0,
+     "i": 22,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.155
+    },
+    {
+     "w": 0,
+     "i": 23,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.161262
+    },
+    {
+     "w": 0,
+     "i": 24,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.167648
+    },
+    {
+     "w": 0,
+     "i": 25,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.174158
+    },
+    {
+     "w": 0,
+     "i": 26,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.180792
+    },
+    {
+     "w": 0,
+     "i": 27,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.18755
+    },
+    {
+     "w": 0,
+     "i": 28,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.194432
+    },
+    {
+     "w": 0,
+     "i": 29,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.201438
+    },
+    {
+     "w": 0,
+     "i": 30,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.208568
+    },
+    {
+     "w": 0,
+     "i": 31,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.215822
+    },
+    {
+     "w": 0,
+     "i": 32,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.2232
+    },
+    {
+     "w": 0,
+     "i": 33,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.230702
+    },
+    {
+     "w": 0,
+     "i": 34,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.238328
+    },
+    {
+     "w": 0,
+     "i": 35,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.246078
+    },
+    {
+     "w": 0,
+     "i": 36,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.253953
+    },
+    {
+     "w": 0,
+     "i": 37,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.261951
+    },
+    {
+     "w": 0,
+     "i": 38,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.270073
+    },
+    {
+     "w": 0,
+     "i": 39,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.278319
+    },
+    {
+     "w": 0,
+     "i": 40,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.286689
+    },
+    {
+     "w": 0,
+     "i": 41,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.295183
+    },
+    {
+     "w": 0,
+     "i": 42,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.303801
+    },
+    {
+     "w": 0,
+     "i": 43,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.312543
+    },
+    {
+     "w": 0,
+     "i": 44,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.321409
+    },
+    {
+     "w": 0,
+     "i": 45,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.330399
+    },
+    {
+     "w": 0,
+     "i": 46,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.339513
+    },
+    {
+     "w": 0,
+     "i": 47,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.348751
+    },
+    {
+     "w": 0,
+     "i": 48,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.358113
+    },
+    {
+     "w": 0,
+     "i": 49,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.367599
+    },
+    {
+     "w": 0,
+     "i": 50,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.377209
+    },
+    {
+     "w": 0,
+     "i": 51,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.386943
+    },
+    {
+     "w": 0,
+     "i": 52,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.396801
+    },
+    {
+     "w": 0,
+     "i": 53,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.406783
+    },
+    {
+     "w": 0,
+     "i": 54,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.416889
+    },
+    {
+     "w": 0,
+     "i": 55,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.427119
+    },
+    {
+     "w": 0,
+     "i": 56,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.437473
+    },
+    {
+     "w": 0,
+     "i": 57,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.447951
+    },
+    {
+     "w": 0,
+     "i": 58,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.458553
+    },
+    {
+     "w": 0,
+     "i": 59,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.469279
+    },
+    {
+     "w": 0,
+     "i": 60,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.480129
+    },
+    {
+     "w": 0,
+     "i": 61,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.491103
+    },
+    {
+     "w": 0,
+     "i": 62,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.502201
+    },
+    {
+     "w": 0,
+     "i": 63,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.513423
+    },
+    {
+     "w": 0,
+     "i": 64,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.524769
+    },
+    {
+     "w": 0,
+     "i": 65,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.536239
+    },
+    {
+     "w": 0,
+     "i": 66,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.547833
+    },
+    {
+     "w": 0,
+     "i": 67,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.559551
+    },
+    {
+     "w": 0,
+     "i": 68,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.571393
+    },
+    {
+     "w": 0,
+     "i": 69,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.583359
+    },
+    {
+     "w": 0,
+     "i": 70,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.595449
+    },
+    {
+     "w": 0,
+     "i": 71,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.607663
+    },
+    {
+     "w": 0,
+     "i": 72,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 0,
+     "i": 73,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.632463
+    },
+    {
+     "w": 0,
+     "i": 74,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.645049
+    },
+    {
+     "w": 0,
+     "i": 75,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.657759
+    },
+    {
+     "w": 0,
+     "i": 76,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.670593
+    },
+    {
+     "w": 0,
+     "i": 77,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.683551
+    },
+    {
+     "w": 0,
+     "i": 78,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.696633
+    },
+    {
+     "w": 0,
+     "i": 79,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.709839
+    },
+    {
+     "w": 0,
+     "i": 80,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.723169
+    },
+    {
+     "w": 0,
+     "i": 81,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.736623
+    },
+    {
+     "w": 0,
+     "i": 82,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.750202
+    },
+    {
+     "w": 0,
+     "i": 83,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.763904
+    },
+    {
+     "w": 0,
+     "i": 84,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.77773
+    },
+    {
+     "w": 0,
+     "i": 85,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.79168
+    },
+    {
+     "w": 0,
+     "i": 86,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.805754
+    },
+    {
+     "w": 0,
+     "i": 87,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.819952
+    },
+    {
+     "w": 0,
+     "i": 88,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.834274
+    },
+    {
+     "w": 0,
+     "i": 89,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.84872
+    },
+    {
+     "w": 0,
+     "i": 90,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.86329
+    },
+    {
+     "w": 0,
+     "i": 91,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.877984
+    },
+    {
+     "w": 0,
+     "i": 92,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0248
+    },
+    {
+     "w": 0,
+     "i": 93,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0273421
+    },
+    {
+     "w": 0,
+     "i": 94,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0300081
+    },
+    {
+     "w": 0,
+     "i": 95,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0327981
+    },
+    {
+     "w": 1,
+     "i": 0,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0486081
+    },
+    {
+     "w": 1,
+     "i": 1,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0521421
+    },
+    {
+     "w": 1,
+     "i": 2,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0558001
+    },
+    {
+     "w": 1,
+     "i": 3,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0595821
+    },
+    {
+     "w": 1,
+     "i": 4,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0634881
+    },
+    {
+     "w": 1,
+     "i": 5,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0675181
+    },
+    {
+     "w": 1,
+     "i": 6,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0716721
+    },
+    {
+     "w": 1,
+     "i": 7,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0759501
+    },
+    {
+     "w": 1,
+     "i": 8,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0803522
+    },
+    {
+     "w": 1,
+     "i": 9,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0848782
+    },
+    {
+     "w": 1,
+     "i": 10,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0895282
+    },
+    {
+     "w": 1,
+     "i": 11,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0943022
+    },
+    {
+     "w": 1,
+     "i": 12,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0992002
+    },
+    {
+     "w": 1,
+     "i": 13,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.104222
+    },
+    {
+     "w": 1,
+     "i": 14,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.109368
+    },
+    {
+     "w": 1,
+     "i": 15,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.114638
+    },
+    {
+     "w": 1,
+     "i": 16,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.120032
+    },
+    {
+     "w": 1,
+     "i": 17,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.12555
+    },
+    {
+     "w": 1,
+     "i": 18,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.131192
+    },
+    {
+     "w": 1,
+     "i": 19,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.136958
+    },
+    {
+     "w": 1,
+     "i": 20,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.142848
+    },
+    {
+     "w": 1,
+     "i": 21,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.148862
+    },
+    {
+     "w": 1,
+     "i": 22,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.155
+    },
+    {
+     "w": 1,
+     "i": 23,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.161262
+    },
+    {
+     "w": 1,
+     "i": 24,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.167648
+    },
+    {
+     "w": 1,
+     "i": 25,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.174158
+    },
+    {
+     "w": 1,
+     "i": 26,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.180792
+    },
+    {
+     "w": 1,
+     "i": 27,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.18755
+    },
+    {
+     "w": 1,
+     "i": 28,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.194432
+    },
+    {
+     "w": 1,
+     "i": 29,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.201438
+    },
+    {
+     "w": 1,
+     "i": 30,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.208568
+    },
+    {
+     "w": 1,
+     "i": 31,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.215822
+    },
+    {
+     "w": 1,
+     "i": 32,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.2232
+    },
+    {
+     "w": 1,
+     "i": 33,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.230702
+    },
+    {
+     "w": 1,
+     "i": 34,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.238328
+    },
+    {
+     "w": 1,
+     "i": 35,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.246078
+    },
+    {
+     "w": 1,
+     "i": 36,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.253953
+    },
+    {
+     "w": 1,
+     "i": 37,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.261951
+    },
+    {
+     "w": 1,
+     "i": 38,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.270073
+    },
+    {
+     "w": 1,
+     "i": 39,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.278319
+    },
+    {
+     "w": 1,
+     "i": 40,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.286689
+    },
+    {
+     "w": 1,
+     "i": 41,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.295183
+    },
+    {
+     "w": 1,
+     "i": 42,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.303801
+    },
+    {
+     "w": 1,
+     "i": 43,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.312543
+    },
+    {
+     "w": 1,
+     "i": 44,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.321409
+    },
+    {
+     "w": 1,
+     "i": 45,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.330399
+    },
+    {
+     "w": 1,
+     "i": 46,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.339513
+    },
+    {
+     "w": 1,
+     "i": 47,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.348751
+    },
+    {
+     "w": 1,
+     "i": 48,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.358113
+    },
+    {
+     "w": 1,
+     "i": 49,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.367599
+    },
+    {
+     "w": 1,
+     "i": 50,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.377209
+    },
+    {
+     "w": 1,
+     "i": 51,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.386943
+    },
+    {
+     "w": 1,
+     "i": 52,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.396801
+    },
+    {
+     "w": 1,
+     "i": 53,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.406783
+    },
+    {
+     "w": 1,
+     "i": 54,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.416889
+    },
+    {
+     "w": 1,
+     "i": 55,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.427119
+    },
+    {
+     "w": 1,
+     "i": 56,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.437473
+    },
+    {
+     "w": 1,
+     "i": 57,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.447951
+    },
+    {
+     "w": 1,
+     "i": 58,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.458553
+    },
+    {
+     "w": 1,
+     "i": 59,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.469279
+    },
+    {
+     "w": 1,
+     "i": 60,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.480129
+    },
+    {
+     "w": 1,
+     "i": 61,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.491103
+    },
+    {
+     "w": 1,
+     "i": 62,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.502201
+    },
+    {
+     "w": 1,
+     "i": 63,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.513423
+    },
+    {
+     "w": 1,
+     "i": 64,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.524769
+    },
+    {
+     "w": 1,
+     "i": 65,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.536239
+    },
+    {
+     "w": 1,
+     "i": 66,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.547833
+    },
+    {
+     "w": 1,
+     "i": 67,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.559551
+    },
+    {
+     "w": 1,
+     "i": 68,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.571393
+    },
+    {
+     "w": 1,
+     "i": 69,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.583359
+    },
+    {
+     "w": 1,
+     "i": 70,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.595449
+    },
+    {
+     "w": 1,
+     "i": 71,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.607663
+    },
+    {
+     "w": 1,
+     "i": 72,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 1,
+     "i": 73,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.632463
+    },
+    {
+     "w": 1,
+     "i": 74,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.645049
+    },
+    {
+     "w": 1,
+     "i": 75,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.657759
+    },
+    {
+     "w": 1,
+     "i": 76,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.670593
+    },
+    {
+     "w": 1,
+     "i": 77,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.683551
+    },
+    {
+     "w": 1,
+     "i": 78,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.696633
+    },
+    {
+     "w": 1,
+     "i": 79,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.709839
+    },
+    {
+     "w": 1,
+     "i": 80,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.723169
+    },
+    {
+     "w": 1,
+     "i": 81,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.736623
+    },
+    {
+     "w": 1,
+     "i": 82,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.750202
+    },
+    {
+     "w": 1,
+     "i": 83,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.763904
+    },
+    {
+     "w": 1,
+     "i": 84,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.77773
+    },
+    {
+     "w": 1,
+     "i": 85,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.79168
+    },
+    {
+     "w": 1,
+     "i": 86,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.805754
+    },
+    {
+     "w": 1,
+     "i": 87,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.819952
+    },
+    {
+     "w": 1,
+     "i": 88,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.834274
+    },
+    {
+     "w": 1,
+     "i": 89,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.84872
+    },
+    {
+     "w": 1,
+     "i": 90,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.86329
+    },
+    {
+     "w": 1,
+     "i": 91,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.877984
+    },
+    {
+     "w": 1,
+     "i": 92,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0248
+    },
+    {
+     "w": 1,
+     "i": 93,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0273421
+    },
+    {
+     "w": 1,
+     "i": 94,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0300081
+    },
+    {
+     "w": 1,
+     "i": 95,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0327981
+    },
+    {
+     "w": 2,
+     "i": 0,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0486081
+    },
+    {
+     "w": 2,
+     "i": 1,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0521421
+    },
+    {
+     "w": 2,
+     "i": 2,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0558001
+    },
+    {
+     "w": 2,
+     "i": 3,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0595821
+    },
+    {
+     "w": 2,
+     "i": 4,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0634881
+    },
+    {
+     "w": 2,
+     "i": 5,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0675181
+    },
+    {
+     "w": 2,
+     "i": 6,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0716721
+    },
+    {
+     "w": 2,
+     "i": 7,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0759501
+    },
+    {
+     "w": 2,
+     "i": 8,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0803522
+    },
+    {
+     "w": 2,
+     "i": 9,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0848782
+    },
+    {
+     "w": 2,
+     "i": 10,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0895282
+    },
+    {
+     "w": 2,
+     "i": 11,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0943022
+    },
+    {
+     "w": 2,
+     "i": 12,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0992002
+    },
+    {
+     "w": 2,
+     "i": 13,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.104222
+    },
+    {
+     "w": 2,
+     "i": 14,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.109368
+    },
+    {
+     "w": 2,
+     "i": 15,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.114638
+    },
+    {
+     "w": 2,
+     "i": 16,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.120032
+    },
+    {
+     "w": 2,
+     "i": 17,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.12555
+    },
+    {
+     "w": 2,
+     "i": 18,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.131192
+    },
+    {
+     "w": 2,
+     "i": 19,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.136958
+    },
+    {
+     "w": 2,
+     "i": 20,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.142848
+    },
+    {
+     "w": 2,
+     "i": 21,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.148862
+    },
+    {
+     "w": 2,
+     "i": 22,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.155
+    },
+    {
+     "w": 2,
+     "i": 23,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.161262
+    },
+    {
+     "w": 2,
+     "i": 24,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.167648
+    },
+    {
+     "w": 2,
+     "i": 25,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.174158
+    },
+    {
+     "w": 2,
+     "i": 26,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.180792
+    },
+    {
+     "w": 2,
+     "i": 27,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.18755
+    },
+    {
+     "w": 2,
+     "i": 28,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.194432
+    },
+    {
+     "w": 2,
+     "i": 29,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.201438
+    },
+    {
+     "w": 2,
+     "i": 30,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.208568
+    },
+    {
+     "w": 2,
+     "i": 31,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.215822
+    },
+    {
+     "w": 2,
+     "i": 32,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.2232
+    },
+    {
+     "w": 2,
+     "i": 33,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.230702
+    },
+    {
+     "w": 2,
+     "i": 34,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.238328
+    },
+    {
+     "w": 2,
+     "i": 35,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.246078
+    },
+    {
+     "w": 2,
+     "i": 36,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.253953
+    },
+    {
+     "w": 2,
+     "i": 37,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.261951
+    },
+    {
+     "w": 2,
+     "i": 38,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.270073
+    },
+    {
+     "w": 2,
+     "i": 39,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.278319
+    },
+    {
+     "w": 2,
+     "i": 40,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.286689
+    },
+    {
+     "w": 2,
+     "i": 41,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.295183
+    },
+    {
+     "w": 2,
+     "i": 42,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.303801
+    },
+    {
+     "w": 2,
+     "i": 43,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.312543
+    },
+    {
+     "w": 2,
+     "i": 44,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.321409
+    },
+    {
+     "w": 2,
+     "i": 45,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.330399
+    },
+    {
+     "w": 2,
+     "i": 46,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.339513
+    },
+    {
+     "w": 2,
+     "i": 47,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.348751
+    },
+    {
+     "w": 2,
+     "i": 48,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.358113
+    },
+    {
+     "w": 2,
+     "i": 49,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.367599
+    },
+    {
+     "w": 2,
+     "i": 50,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.377209
+    },
+    {
+     "w": 2,
+     "i": 51,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.386943
+    },
+    {
+     "w": 2,
+     "i": 52,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.396801
+    },
+    {
+     "w": 2,
+     "i": 53,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.406783
+    },
+    {
+     "w": 2,
+     "i": 54,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.416889
+    },
+    {
+     "w": 2,
+     "i": 55,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.427119
+    },
+    {
+     "w": 2,
+     "i": 56,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.437473
+    },
+    {
+     "w": 2,
+     "i": 57,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.447951
+    },
+    {
+     "w": 2,
+     "i": 58,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.458553
+    },
+    {
+     "w": 2,
+     "i": 59,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.469279
+    },
+    {
+     "w": 2,
+     "i": 60,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.480129
+    },
+    {
+     "w": 2,
+     "i": 61,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.491103
+    },
+    {
+     "w": 2,
+     "i": 62,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.502201
+    },
+    {
+     "w": 2,
+     "i": 63,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.513423
+    },
+    {
+     "w": 2,
+     "i": 64,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.524769
+    },
+    {
+     "w": 2,
+     "i": 65,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.536239
+    },
+    {
+     "w": 2,
+     "i": 66,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.547833
+    },
+    {
+     "w": 2,
+     "i": 67,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.559551
+    },
+    {
+     "w": 2,
+     "i": 68,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.571393
+    },
+    {
+     "w": 2,
+     "i": 69,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.583359
+    },
+    {
+     "w": 2,
+     "i": 70,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.595449
+    },
+    {
+     "w": 2,
+     "i": 71,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.607663
+    },
+    {
+     "w": 2,
+     "i": 72,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 2,
+     "i": 73,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.632463
+    },
+    {
+     "w": 2,
+     "i": 74,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.645049
+    },
+    {
+     "w": 2,
+     "i": 75,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.657759
+    },
+    {
+     "w": 2,
+     "i": 76,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.670593
+    },
+    {
+     "w": 2,
+     "i": 77,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.683551
+    },
+    {
+     "w": 2,
+     "i": 78,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.696633
+    },
+    {
+     "w": 2,
+     "i": 79,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.709839
+    },
+    {
+     "w": 2,
+     "i": 80,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.723169
+    },
+    {
+     "w": 2,
+     "i": 81,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.736623
+    },
+    {
+     "w": 2,
+     "i": 82,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.750202
+    },
+    {
+     "w": 2,
+     "i": 83,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.763904
+    },
+    {
+     "w": 2,
+     "i": 84,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.77773
+    },
+    {
+     "w": 2,
+     "i": 85,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.79168
+    },
+    {
+     "w": 2,
+     "i": 86,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.805754
+    },
+    {
+     "w": 2,
+     "i": 87,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.819952
+    },
+    {
+     "w": 2,
+     "i": 88,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.834274
+    },
+    {
+     "w": 2,
+     "i": 89,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.84872
+    },
+    {
+     "w": 2,
+     "i": 90,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.86329
+    },
+    {
+     "w": 2,
+     "i": 91,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.877984
+    },
+    {
+     "w": 2,
+     "i": 92,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0248
+    },
+    {
+     "w": 2,
+     "i": 93,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0273421
+    },
+    {
+     "w": 2,
+     "i": 94,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0300081
+    },
+    {
+     "w": 2,
+     "i": 95,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0327981
+    },
+    {
+     "w": 3,
+     "i": 0,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.0486081
+    },
+    {
+     "w": 3,
+     "i": 1,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.0521421
+    },
+    {
+     "w": 3,
+     "i": 2,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.0558001
+    },
+    {
+     "w": 3,
+     "i": 3,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.0595821
+    },
+    {
+     "w": 3,
+     "i": 4,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.0634881
+    },
+    {
+     "w": 3,
+     "i": 5,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.0675181
+    },
+    {
+     "w": 3,
+     "i": 6,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.0716721
+    },
+    {
+     "w": 3,
+     "i": 7,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.0759501
+    },
+    {
+     "w": 3,
+     "i": 8,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.0803522
+    },
+    {
+     "w": 3,
+     "i": 9,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.0848782
+    },
+    {
+     "w": 3,
+     "i": 10,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.0895282
+    },
+    {
+     "w": 3,
+     "i": 11,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.0943022
+    },
+    {
+     "w": 3,
+     "i": 12,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0992002
+    },
+    {
+     "w": 3,
+     "i": 13,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.104222
+    },
+    {
+     "w": 3,
+     "i": 14,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.109368
+    },
+    {
+     "w": 3,
+     "i": 15,
+     "offset": 18,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.114638
+    },
+    {
+     "w": 3,
+     "i": 16,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.120032
+    },
+    {
+     "w": 3,
+     "i": 17,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.12555
+    },
+    {
+     "w": 3,
+     "i": 18,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.131192
+    },
+    {
+     "w": 3,
+     "i": 19,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.136958
+    },
+    {
+     "w": 3,
+     "i": 20,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.142848
+    },
+    {
+     "w": 3,
+     "i": 21,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.148862
+    },
+    {
+     "w": 3,
+     "i": 22,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.155
+    },
+    {
+     "w": 3,
+     "i": 23,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.161262
+    },
+    {
+     "w": 3,
+     "i": 24,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.167648
+    },
+    {
+     "w": 3,
+     "i": 25,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.174158
+    },
+    {
+     "w": 3,
+     "i": 26,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.180792
+    },
+    {
+     "w": 3,
+     "i": 27,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.18755
+    },
+    {
+     "w": 3,
+     "i": 28,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.194432
+    },
+    {
+     "w": 3,
+     "i": 29,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.201438
+    },
+    {
+     "w": 3,
+     "i": 30,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.208568
+    },
+    {
+     "w": 3,
+     "i": 31,
+     "offset": 68,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.215822
+    },
+    {
+     "w": 3,
+     "i": 32,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.2232
+    },
+    {
+     "w": 3,
+     "i": 33,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.230702
+    },
+    {
+     "w": 3,
+     "i": 34,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.238328
+    },
+    {
+     "w": 3,
+     "i": 35,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.246078
+    },
+    {
+     "w": 3,
+     "i": 36,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.253953
+    },
+    {
+     "w": 3,
+     "i": 37,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.261951
+    },
+    {
+     "w": 3,
+     "i": 38,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.270073
+    },
+    {
+     "w": 3,
+     "i": 39,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.278319
+    },
+    {
+     "w": 3,
+     "i": 40,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.286689
+    },
+    {
+     "w": 3,
+     "i": 41,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.295183
+    },
+    {
+     "w": 3,
+     "i": 42,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.303801
+    },
+    {
+     "w": 3,
+     "i": 43,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.312543
+    },
+    {
+     "w": 3,
+     "i": 44,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.321409
+    },
+    {
+     "w": 3,
+     "i": 45,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.330399
+    },
+    {
+     "w": 3,
+     "i": 46,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.339513
+    },
+    {
+     "w": 3,
+     "i": 47,
+     "offset": 118,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.348751
+    },
+    {
+     "w": 3,
+     "i": 48,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.358113
+    },
+    {
+     "w": 3,
+     "i": 49,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.367599
+    },
+    {
+     "w": 3,
+     "i": 50,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.377209
+    },
+    {
+     "w": 3,
+     "i": 51,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.386943
+    },
+    {
+     "w": 3,
+     "i": 52,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.396801
+    },
+    {
+     "w": 3,
+     "i": 53,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.406783
+    },
+    {
+     "w": 3,
+     "i": 54,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.416889
+    },
+    {
+     "w": 3,
+     "i": 55,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.427119
+    },
+    {
+     "w": 3,
+     "i": 56,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.437473
+    },
+    {
+     "w": 3,
+     "i": 57,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.447951
+    },
+    {
+     "w": 3,
+     "i": 58,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.458553
+    },
+    {
+     "w": 3,
+     "i": 59,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.469279
+    },
+    {
+     "w": 3,
+     "i": 60,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.480129
+    },
+    {
+     "w": 3,
+     "i": 61,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.491103
+    },
+    {
+     "w": 3,
+     "i": 62,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.502201
+    },
+    {
+     "w": 3,
+     "i": 63,
+     "offset": 168,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.513423
+    },
+    {
+     "w": 3,
+     "i": 64,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.524769
+    },
+    {
+     "w": 3,
+     "i": 65,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.536239
+    },
+    {
+     "w": 3,
+     "i": 66,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.547833
+    },
+    {
+     "w": 3,
+     "i": 67,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.559551
+    },
+    {
+     "w": 3,
+     "i": 68,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.571393
+    },
+    {
+     "w": 3,
+     "i": 69,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.583359
+    },
+    {
+     "w": 3,
+     "i": 70,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.595449
+    },
+    {
+     "w": 3,
+     "i": 71,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.607663
+    },
+    {
+     "w": 3,
+     "i": 72,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.620001
+    },
+    {
+     "w": 3,
+     "i": 73,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.632463
+    },
+    {
+     "w": 3,
+     "i": 74,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.645049
+    },
+    {
+     "w": 3,
+     "i": 75,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.657759
+    },
+    {
+     "w": 3,
+     "i": 76,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.670593
+    },
+    {
+     "w": 3,
+     "i": 77,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.683551
+    },
+    {
+     "w": 3,
+     "i": 78,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.696633
+    },
+    {
+     "w": 3,
+     "i": 79,
+     "offset": 218,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.709839
+    },
+    {
+     "w": 3,
+     "i": 80,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 0,
+     "value": 0.723169
+    },
+    {
+     "w": 3,
+     "i": 81,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 1,
+     "value": 0.736623
+    },
+    {
+     "w": 3,
+     "i": 82,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 2,
+     "value": 0.750202
+    },
+    {
+     "w": 3,
+     "i": 83,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 3,
+     "value": 0.763904
+    },
+    {
+     "w": 3,
+     "i": 84,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 4,
+     "value": 0.77773
+    },
+    {
+     "w": 3,
+     "i": 85,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 5,
+     "value": 0.79168
+    },
+    {
+     "w": 3,
+     "i": 86,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 6,
+     "value": 0.805754
+    },
+    {
+     "w": 3,
+     "i": 87,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 7,
+     "value": 0.819952
+    },
+    {
+     "w": 3,
+     "i": 88,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 8,
+     "value": 0.834274
+    },
+    {
+     "w": 3,
+     "i": 89,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 9,
+     "value": 0.84872
+    },
+    {
+     "w": 3,
+     "i": 90,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 10,
+     "value": 0.86329
+    },
+    {
+     "w": 3,
+     "i": 91,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 11,
+     "value": 0.877984
+    },
+    {
+     "w": 3,
+     "i": 92,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 12,
+     "value": 0.0248
+    },
+    {
+     "w": 3,
+     "i": 93,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 13,
+     "value": 0.0273421
+    },
+    {
+     "w": 3,
+     "i": 94,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 14,
+     "value": 0.0300081
+    },
+    {
+     "w": 3,
+     "i": 95,
+     "offset": 268,
+     "type": "CHGAIN",
+     "vslot": 15,
+     "value": 0.0327981
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "blocks": 13,
+  "steals": 8,
+  "self_steals": 0,
+  "steals_active": 8,
+  "ev_dropped": 322,
+  "wcount": [
+   16,
+   16,
+   16,
+   16
+  ]
+ }
+}

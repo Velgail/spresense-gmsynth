@@ -103,10 +103,61 @@ static int dump_block(int n, int slot, bool *first_blk)
   return total;
 }
 
+/* RESET-fence failure injection: the stub mpmq never acks, so
+ * workers_reset() must report failure and song_load() must abort
+ * BEFORE the sample pool is overwritten.  Returns 0 on PASS.
+ */
+
+static int reset_fence_test(const char *midpath)
+{
+  static char dir[256];
+  const char *base = strrchr(midpath, '/');
+  int r;
+  size_t i;
+  bool intact = true;
+
+  if (base != NULL)
+    {
+      snprintf(dir, sizeof(dir), "%.*s", (int)(base - midpath),
+               midpath);
+      base++;
+    }
+  else
+    {
+      snprintf(dir, sizeof(dir), ".");
+      base = midpath;
+    }
+
+  g_mididir = dir;
+  snprintf(g_songs[0], sizeof(g_songs[0]), "%s", base);
+  g_nsongs = 1;
+  g_pool_samples = h_pool;
+  memset(h_pool, 0xab, sizeof(h_pool));
+
+  r = song_load(0);
+
+  for (i = 0; i < sizeof(h_pool); i++)
+    {
+      if (h_pool[i] != 0xab)
+        {
+          intact = false;
+          break;
+        }
+    }
+
+  fprintf(g_json, "{\"reset_fence\": {\"song_load\": %d, "
+          "\"pool_intact\": %s, \"verdict\": \"%s\"}}\n",
+          r, intact ? "true" : "false",
+          (r < 0 && intact) ? "PASS" : "FAIL");
+  fflush(g_json);
+  return (r < 0 && intact) ? 0 : 1;
+}
+
 int main(int argc, char *argv[])
 {
   const char *midpath = NULL;
   bool loop = false;
+  bool reset_fence = false;
   int max_blocks = 4000;
   int a;
   int fd;
@@ -119,6 +170,10 @@ int main(int argc, char *argv[])
       if (strcmp(argv[a], "--loop") == 0)
         {
           loop = true;
+        }
+      else if (strcmp(argv[a], "--reset-fence") == 0)
+        {
+          reset_fence = true;
         }
       else if (strcmp(argv[a], "--max-blocks") == 0 && a + 1 < argc)
         {
@@ -194,6 +249,11 @@ int main(int argc, char *argv[])
   for (a = 0; a < GM2_NWORKERS; a++)
     {
       g_blkarea[a] = &h_blkarea[a];
+    }
+
+  if (reset_fence)
+    {
+      return reset_fence_test(midpath);
     }
 
   if (gmseq_open(&g_seq, g_midibuf, g_midisz) < 0)

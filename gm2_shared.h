@@ -9,8 +9,9 @@
  *   main core : SMF sequencer, global 64-voice ledger, per-song sample
  *               loading, final mix + shared echo, 48kHz audio I/O, UI
  *   4 subcores: 16 voices each, ADPCM + linear interp + ADSR at 48kHz,
- *               reading sample data from one shared 640KB mpshm pool,
- *               writing dry L/R + echo-send L/R blocks back to it
+ *               reading sample data from one shared 512KB mpshm pool
+ *               (GM2_POOL_SIZE), writing dry L/R + echo-send L/R
+ *               blocks back to it
  *
  * The workers are code-only (~10KB): small worker images keep the
  * address-converter tags free so the big pool attach works (the

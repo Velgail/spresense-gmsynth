@@ -11,7 +11,7 @@ development but not captured in a reproducible form.
 | Layer | What it covers | Tooling | Status |
 |---|---|---|---|
 | 1. Bank structure | Region counts, drum keys, key ranges, rates, size | `bank_manifest.py` vs `tests/expected/fixture_manifest.json` (fixture); `--write` for your own bank | automated, in CI |
-| 2. Offline audio | Zone-level volume vs source font; pitch/audibility QA | `bank_calibrate.py --check`, `bank_qa.py` | automated locally (needs your font + fluidsynth); not in CI |
+| 2. Offline audio | Zone-level volume vs source font; pitch/audibility QA | `bank_calibrate.py --check`, `bank_qa.py` (both exit non-zero on failure) | automated locally (needs your font + fluidsynth); not in CI |
 | 3. C event logic | SMF parsing, channel state, voice ledger, steal policy, block event streams | `tests/trace_regression.py` (real C sources on host) | automated, in CI |
 | 4. Hardware-in-the-loop | ASMP transport, 16.16 fixed-point playback, saturation, audio pipeline, underruns, RESET fence | device PCM capture vs reference render | **TBD — not implemented** |
 
@@ -73,8 +73,11 @@ backing them, so treat them as engineering notes, not test results:
 - [ ] Device PCM (I2S or line capture) vs `gmrender.py` on fixed MIDI:
       onset error, per-note RMS delta, pitch delta, silence windows,
       cross-correlation / spectral distance
-- [ ] RESET-failure injection: pool must stay untouched and playback
-      must stop or recover (guard added in `song_load()`)
+- [x] RESET-failure injection at the supervisor-logic level: the host
+      harness's mpmq stubs never ack, and `gmtrace --reset-fence`
+      asserts `song_load()` aborts with the sample pool untouched
+      (in CI via `tests/trace_regression.py`).  The device-side half
+      (a worker that really hangs mid-RENDER) still needs Layer 4.
 
 ## Known limitations
 

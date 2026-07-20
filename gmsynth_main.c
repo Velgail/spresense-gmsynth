@@ -345,6 +345,8 @@ static float env_estimate(const struct lvoice_s *v, uint32_t now)
 
 static void lv_release(struct lvoice_s *v, uint16_t offset, bool kill)
 {
+  FAR struct gm2_ev_s *ev;
+
   if (!v->used || v->phase == 1)
     {
       if (v->used && kill)
@@ -355,11 +357,23 @@ static void lv_release(struct lvoice_s *v, uint16_t offset, bool kill)
       return;
     }
 
+  /* Reserve the event BEFORE flipping the ledger to releasing: if the
+   * block is full the worker never hears it, and a ledger-only
+   * "release" would let GC retire (and steal logic re-use) a slot the
+   * worker is still playing at full level.  Keeping the voice in its
+   * playing state stays consistent with the worker.
+   */
+
+  ev = blk_ev_append(v->worker, offset,
+                     kill ? GM2_EV_KILL : GM2_EV_RELEASE, v->vslot);
+  if (ev == NULL)
+    {
+      return;
+    }
+
   v->env_at_rel = env_estimate(v, g_fill_frame + offset);
   v->phase = 1;
   v->rel_frame = g_fill_frame + offset;
-  blk_ev_append(v->worker, offset, kill ? GM2_EV_KILL : GM2_EV_RELEASE,
-                v->vslot);
 }
 
 /* lv_alloc() : The validated steal policy: same-note self-steal ->
